@@ -1,0 +1,37 @@
+header {
+  display: flex;
+  justify-content: center;
+}
+
+/* Esconde o conteúdo das abas, exceto a primeira aba */
+.tabcontent {
+  display: none;
+}
+
+/* Estilo das abas */
+.tab button {
+  background-color: #1f0091;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Estilo da aba ativa */
+.tab button.active {
+  background-color: #05661a;
+}
+
+/* Estilo do conteúdo das abas */
+.tabcontent {
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+/* Estilo da borda inferior das abas */
+.tab {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px;
+}
