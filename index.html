@@ -1,202 +1,754 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+<!doctype html>
+<html lang="pt_br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Ultimate Geek Con é um evento de cultura pop que é realizado em Araraquara - SP">
+        <meta name="author" content="">
+        <title>Ultimate Geek Con - Araraquara</title>
+        <!-- CSS FILES -->        
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/bootstrap-icons.css" rel="stylesheet">
+        <link href="css/templatemo-kind-heart-charity.css" rel="stylesheet">
+		<!--
 
-  <link rel="stylesheet" href="css/style.css">
+TemplateMo 581 Kind Heart Charity
 
-  <link href="css/bootstrap.min.css" rel="stylesheet">
+https://templatemo.com/tm-581-kind-heart-charity
 
-  <link href="css/bootstrap-icons.css" rel="stylesheet">
+-->
 
-  <link href="css/templatemo-kind-heart-charity.css" rel="stylesheet">
-</head>
-<body>
-  <header>
-    <div class="tab">
-      <button class="tablinks" onclick="openTab(event, 'tab1')">UGC - Pocket Edition</button>
-      <button id="defaultOpen" class="tablinks" onclick="openTab(event, 'tab2')">UGC - Padrão</button>
-      <button class="tablinks" onclick="openTab(event, 'tab3')">UGC - Tour</button>
-    </div>
-  </header>
-  
-  <nav id="tab1" class="navbar navbar-expand-lg bg-light shadow-lg tabcontent">
-    <div class="container">
-        <a class="navbar-brand" href="index.html">
-            <img src="img/logo2.jpg" class="logo img-fluid" alt="Ultimate Geek Con">
-            <span>
-                Ultimate Geek Con - Pocket Edition
-                <small>Non-profit Organization</small>
-            </span>
-        </a>
+    </head>
+    
+    <body id="section_1">
 
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+        <header class="site-header">
+            <div class="container">
+                <div class="row">
+                    
+                    <div class="col-lg-8 col-12 d-flex flex-wrap">
+                        <p class="d-flex me-4 mb-0">
+                            <i class="bi-geo-alt me-2"></i>
+                            Clube 22 de Agosto - 12/03/2023 
+                        </p>
 
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                    <a class="nav-link click-scroll" href="#top">Home</a>
-                </li>
+                        <p class="d-flex mb-0">
+                            <i class="bi-envelope me-2"></i>
 
-                <li class="nav-item">
-                    <a class="nav-link click-scroll" href="#section_2">About</a>
-                </li>
+                            <a href="mailto:contato@ultimategeekcon.com.br">
+                                contato@ultimategeekcon.com.br
+                            </a>
+                        </p>
+                    </div>
 
-                <li class="nav-item">
-                    <a class="nav-link click-scroll" href="#section_3">Causes</a>
-                </li>
+                    <div class="col-lg-3 col-12 ms-auto d-lg-block d-none">
+                        <ul class="social-icon">
+                           
 
-                <li class="nav-item">
-                    <a class="nav-link click-scroll" href="#section_4">Volunteer</a>
-                </li>
+                            <li class="social-icon-item">
+                                <a href="https://www.facebook.com/UltimateGeekCon" target="_blank" class="social-icon-link bi-facebook"></a>
+                            </li>
 
-                <li class="nav-item dropdown">
-                    <a class="nav-link click-scroll dropdown-toggle" href="#section_5" id="navbarLightDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">News</a>
+                            <li class="social-icon-item">
+                                <a href="https://www.instagram.com/ultimategeekcon/" target="_blank" class="social-icon-link bi-instagram"></a>
+                            </li>
 
-                    <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarLightDropdownMenuLink">
-                        <li><a class="dropdown-item" href="news.html">News Listing</a></li>
+                        </ul>
+                    </div>
 
-                        <li><a class="dropdown-item" href="news-detail.html">News Detail</a></li>
+                </div>
+            </div>
+        </header>
+
+        <nav class="navbar navbar-expand-lg bg-light shadow-lg">
+            <div class="container">
+                <a class="navbar-brand" href="/">
+                    <img src="images/logo.png" class="logo img-fluid" alt="Ultimate Geek Con">
+                    <span>
+                        Ultimate Geek Con - 2023
+                        <small>Clube 22 de Agosto - Araraquara</small>
+                    </span>
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="#top">Inicio</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="#sobre">o Evento</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="#cadastro">Cadastros</a>
+                        </li>
+
+						<li class="nav-item">
+                            <a class="nav-link click-scroll" href="#cosfut">Copa Fute Cosplay</a>
+                        </li>   
+						
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="#regras">Regras</a>
+                        </li>                   
+<li class="nav-item">
+                            <a class="nav-link click-scroll" href="#meet">Meet and Greet</a>
+                        </li> 
+                       
+
+                        <li class="nav-item ms-3">
+                            <a  target="_blank"  class="nav-link custom-btn custom-border-btn btn" href="https://quero2ingressos.com.br/events/ultimate-geek-con-clube-2207012023122236">Ingresso</a>
+                        </li>
                     </ul>
-                </li>
+                </div>
+            </div>
+        </nav>
 
-                <li class="nav-item">
-                    <a class="nav-link click-scroll" href="#section_6">Contact</a>
-                </li>
+        <main>
 
-                <li class="nav-item ms-3">
-                    <a class="nav-link custom-btn custom-border-btn btn" href="donate.html">Donate</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-  </nav>
-  <nav id="tab2" class="navbar navbar-expand-lg bg-light shadow-lg tabcontent">
-    <div class="container">
-        <a class="navbar-brand" href="index.html">
-            <img src="img/logo.png" class="logo img-fluid" alt="Ultimate Geek Con">
-            <span>
-                Ultimate Geek Con - Padrão
-                <small>Non-profit Organization</small>
-            </span>
-        </a>
+            
+            
 
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+            <section class="section-padding section-bg" id="sobre">
+                <div class="container">
+                    <div class="row">
 
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                    <a class="nav-link click-scroll" href="#top">Home</a>
-                </li>
+                        <div class="col-lg-6 col-12 mb-5 mb-lg-0">
+                            <img src="images/evento.jpg" class="custom-text-box-image img-fluid" alt="">
+                        </div>
 
-                <li class="nav-item">
-                    <a class="nav-link click-scroll" href="#section_2">About</a>
-                </li>
+                        <div class="col-lg-6 col-12">
+                            <div class="custom-text-box">
+                                <h2 class="mb-2">Ultimate Geek Con 2023</h2>
 
-                <li class="nav-item">
-                    <a class="nav-link click-scroll" href="#section_3">Causes</a>
-                </li>
+                                <h5 class="mb-3"><b>Local :</b> Clube 22 de Agosto</h5>
 
-                <li class="nav-item">
-                    <a class="nav-link click-scroll" href="#section_4">Volunteer</a>
-                </li>
+                                <p class="mb-0"><b>End :</b> Av. Carmo Fiorillo, 391 - Vila Santana, Araraquara - SP <br>
+								<b>Horario :</b> 11:00 as 19:00</p>
+								
+								<br>
+								
+								<p><b>Ultimate Geek Con</b> é um evento de cultura pop que ocorrerá em Março na cidade de Araraquara</p>
+                            </div>
+                            
+                            
+                        </div>
 
-                <li class="nav-item dropdown">
-                    <a class="nav-link click-scroll dropdown-toggle" href="#section_5" id="navbarLightDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">News</a>
+                    </div>
+                </div>
+            </section>
 
-                    <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarLightDropdownMenuLink">
-                        <li><a class="dropdown-item" href="news.html">News Listing</a></li>
+<section class="section-padding">
+                <div class="container">
+                    <div class="row">
 
-                        <li><a class="dropdown-item" href="news-detail.html">News Detail</a></li>
-                    </ul>
-                </li>
+                        <div class="col-lg-10 col-12 text-center mx-auto">
+                            <h2 class="mb-5">Patrocinadores Ouro</h2>
+                        </div>
 
-                <li class="nav-item">
-                    <a class="nav-link click-scroll" href="#section_6">Contact</a>
-                </li>
+                        <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
+                            <div class="featured-block d-flex justify-content-center align-items-center">
+                                <a href="#" class="d-block">
+                                    <img src="images/22deagosto.png" class="featured-block-image img-fluid" alt="">
 
-                <li class="nav-item ms-3">
-                    <a class="nav-link custom-btn custom-border-btn btn" href="donate.html">Donate</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-  </nav>
-  <nav id="tab3" class="navbar navbar-expand-lg bg-light shadow-lg tabcontent">
-    <div class="container">
-        <a class="navbar-brand" href="index.html">
-            <img src="img/logo.png" class="logo img-fluid" alt="Ultimate Geek Con">
-            <span>
-                Ultimate Geek Con - Tour
-                <small>Non-profit Organization</small>
-            </span>
-        </a>
+                                    <p class="featured-block-text">22 de agosto</p>
+                                </a>
+                            </div>
+                        </div>
 
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+                        <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0 mb-md-4">
+                            <div class="featured-block d-flex justify-content-center align-items-center">
+                                <a href="#" class="d-block">
+                                    <img src="images/colormix.png" class="featured-block-image img-fluid" alt="">
 
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                    <a class="nav-link click-scroll" href="#top">Home</a>
-                </li>
+                                    <p class="featured-block-text">Colormix</p>
+                                </a>
+                            </div>
+                        </div>
 
-                <li class="nav-item">
-                    <a class="nav-link click-scroll" href="#section_2">About</a>
-                </li>
+                        <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0 mb-md-4">
+                            <div class="featured-block d-flex justify-content-center align-items-center">
+                                <a href="#" class="d-block">
+                                    <img src="images/tatoo013.png" class="featured-block-image img-fluid" alt="">
 
-                <li class="nav-item">
-                    <a class="nav-link click-scroll" href="#section_3">Causes</a>
-                </li>
+                                    <p class="featured-block-text">Tattoo 013</p>
+                                </a>
+                            </div>
+                        </div>
 
-                <li class="nav-item">
-                    <a class="nav-link click-scroll" href="#section_4">Volunteer</a>
-                </li>
+                        <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
+                            <div class="featured-block d-flex justify-content-center align-items-center">
+                                <a href="#" class="d-block">
+                                    <img src="images/tem.png" class="featured-block-image img-fluid" alt="">
 
-                <li class="nav-item dropdown">
-                    <a class="nav-link click-scroll dropdown-toggle" href="#section_5" id="navbarLightDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">News</a>
+                                    <p class="featured-block-text">TEM!</p>
+                                </a>
+                            </div>
+                        </div>
+						
+						<div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
+                            <div class="featured-block d-flex justify-content-center align-items-center">
+                                <a href="#" class="d-block">
+                                    <img src="images/tribos.png" class="featured-block-image img-fluid" alt="">
 
-                    <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarLightDropdownMenuLink">
-                        <li><a class="dropdown-item" href="news.html">News Listing</a></li>
+                                    <p class="featured-block-text">Tribos</p>
+                                </a>
+                            </div>
+                        </div>
+						<div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
+                            <div class="featured-block d-flex justify-content-center align-items-center">
+                                <a href="#" class="d-block">
+                                    <img src="images/shopping.png" class="featured-block-image img-fluid" alt="">
 
-                        <li><a class="dropdown-item" href="news-detail.html">News Detail</a></li>
-                    </ul>
-                </li>
+                                    <p class="featured-block-text">Shopping Jaraguá </p>
+                                </a>
+                            </div>
+                        </div>
+						<div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
+                            <div class="featured-block d-flex justify-content-center align-items-center">
+                                <a href="#" class="d-block">
+                                    <img src="images/masmorra.png" class="featured-block-image img-fluid" alt="">
 
-                <li class="nav-item">
-                    <a class="nav-link click-scroll" href="#section_6">Contact</a>
-                </li>
+                                    <p class="featured-block-text">Masmorra </p>
+                                </a>
+                            </div>
+                        </div>
 
-                <li class="nav-item ms-3">
-                    <a class="nav-link custom-btn custom-border-btn btn" href="donate.html">Donate</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-  </nav>
+                    </div>
+                </div>
+            </section>
+			
+			<section class="section-padding section-bg" id="meet">
+                <div class="container">
+                    <div class="row">
 
-  <div id="tab1" class="tabcontent">
-    <h3>Tab 1 Content</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor turpis vitae lorem volutpat, vel faucibus lorem vulputate.</p>
-  </div>
-  
-  <div id="tab2" class="tabcontent">
-    <h3>Tab 2 Content</h3>
-    <p>Donec eget leo nec massa pretium aliquam. Sed sed quam vel eros posuere ullamcorper. </p>
-  </div>
-  
-  <div id="tab3" class="tabcontent">
-    <h3>Tab 3 Content</h3>
-    <p>Nulla porttitor est vitae lobortis sollicitudin. Nullam lobortis, mauris vel viverra congue, nisi felis malesuada est, non aliquam sapien velit vel justo.</p>
-  </div>
-  <script src="index.js"></script>
-</body>
+                        
+
+                        <div class="col-lg-6 col-12">
+                            <div class="custom-text-box">
+                                <h2 class="mb-2">Meet and Greet</h2>
+
+                               <br> <h5 class="mb-3">
+O Meet and Greet consiste no seguinte combo:<br><br>
+
+- Um Poster exclusivo com arte dos dubladores Enio Vivona e Renan Rosa com assinatura digital<br>
+- Uma foto tirada pela equipe Ultimate Geek Con<br>
+- Um minuto para conhecer os dubladores<br><br>
+
+Esse combo é limitado. Não perca a chance de conhecer seus ídolos.</p>
+								
+								
+								<a  class="custom-btn btn smoothscroll" target="_blank" href="http://www.masmorralivraria.com.br/pd-93dbf6-meet-and-greet-ultimate-geek-con-2023-enio-e-renan.html?ct=&p=1&s=1">Quero Muito </a>
+                            </div>
+                            
+                            
+                        </div>
+						<div class="col-lg-6 col-12 mb-5 mb-lg-0">
+                            <img src="images/meet.jpg" class="custom-text-box-image img-fluid" alt="">
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+			
+            
+            <section class="cta-section section-padding section-bg">
+                <div class="container">
+                    <div class="row justify-content-center align-items-center">
+
+                        <div class="col-lg-5 col-12 ms-auto">
+                            <h2 class="mb-0">Ficou interessado(a) ? <br> Quer ir ? .</h2>
+                        </div>
+
+                        <div class="col-lg-5 col-12">
+                            <a  href="https://quero2ingressos.com.br/events/ultimate-geek-con-clube-2207012023122236" target="_blank" class="me-4">Garanta o seu ingresso</a>
+
+                            <a  href="https://quero2ingressos.com.br/events/ultimate-geek-con-clube-2207012023122236" target="_blank"  class="custom-btn btn smoothscroll">Comprar ingresso</a>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="section-padding" id="cadastro">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-12 col-12 text-center mb-4">
+                            <h2>Cadastros</h2>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
+                            <div class="custom-block-wrap">
+                                <img src="images/cosplayer.jpg" class="custom-block-image img-fluid" alt="">
+
+                                <div class="custom-block">
+                                    <div class="custom-block-body">
+                                        <h5 class="mb-3">Ficha Cosplayer</h5>
+
+                                        <p>Coloque o seu cosplay e venha para o evento.</p>
+
+                                        
+                                    </div>
+
+                                    <a href="https://forms.gle/wcV6KkibsvhFC9UZA" target="_blank" class="custom-btn btn">Fazer Cadastro</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
+                            <div class="custom-block-wrap">
+                                <img src="images/kpop.jpg" class="custom-block-image img-fluid" alt="">
+
+                                <div class="custom-block">
+                                    <div class="custom-block-body">
+                                        <h5 class="mb-3">Ficha KPOP</h5>
+
+                                        <p>Galera KPOPER , aproveitem para mostrar seu talento .</p>
+                                        
+                                    </div>
+
+                                    <a href="https://forms.gle/1a4JaQRXkcPPGZ8u7" class="custom-btn btn">Fazer Cadastro</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
+                            <div class="custom-block-wrap">
+                                <img src="images/futebol.jpg" class="custom-block-image img-fluid" alt="">
+
+                                <div class="custom-block">
+                                    <div class="custom-block-body">
+                                        <h5 class="mb-3">Copa Fute Cosplay</h5>
+
+                                        <p>Opa .. Bora jogar um futi?.</p>
+                                        
+                                    </div>
+
+                                    <a href="https://forms.gle/3vLjczxdxkKhT9vn7" class="custom-btn btn">Fazer Cadastro</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            
+
+            <section class="news-section section-padding" id="regras">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-12 col-12 mb-5">
+                            <h2>Regras - Cosplay</h2>
+                        </div>
+
+                        <div class="col-lg-7 col-12">
+                            <div class="news-block">
+                                
+								
+								
+								INTRODUÇÃO<br>
+O Desfile Cosplay é uma das atrações mais esperadas em eventos geek. Esta atração promove um concurso entre pessoas, chamadas de cosplayers, que usarão trajes e acessórios, com o objetivo de interpretar personagens fictícios existentes em animes/mangás, HQs/Comics, Séries, Filmes, Games e tudo que envolve a cultura pop. A intenção é, através desta disputa, estimular o cosplayer a desenvolver novas habilidades e premiá-los, desde que se destaquem na avaliação do júri, indicado pelo evento.<br><br>
+INSCRIÇÃO<br>
+O cadastro será feito via online, através do link:<br><br>
+
+ <div align="center"> <a href="https://docs.google.com/forms/d/15dtJHuHGpphzjfMUWd4gBuL9CpquffXvZYho7rW2ZwI/prefill" class="custom-btn btn">Cadastro Cosplay</a> </div>
+ <br>
+A inscrição deverá conter: E-mail pessoal, Nome Completo, RG, Personagem/Mídia de Origem, Categoria e 3 Imagens de Referência.<br>
+<br>
+<strong> CATEGORIAS</strong><br>
+<br>
+<strong> Principal</strong> <br>
+– 75 vagas;<br>
+<br>
+<strong> Kids</strong> <br>
+- 25 vagas<br>
+- Concurso destinado para crianças de até 12 anos, que deverão ter a autorização dos pais para participar;- <a href="ultimate-aut-menor.pdf"><b>Baixar autorização p/ menores de idade</b></a><br>
+<br>
+<strong>Cospobre</strong><br>
+- 25 vagas <br>
+– Mostre sua criativiade , seu cosplay autoral .. <br><br>
+<strong> Cosmaker</strong><br>
+- 25 vagas <br>
+– Mostre seu talendo como cosmaker .. <br><br>
+								
+<strong> Livre</strong><br>
+- 50 vagas <br>
+– Concurso destinado para cosplayers que queiram se apresentar com vestimentas improvisadas (Cosfun) ou de criação própria (Ex. Batman Azul, Mulher Maravilha Verde, etc);<br>
+<br>
+<strong> MÍDIAS DE ORIGEM</strong><br>
+<br>
+Anime/Mangá;<br>
+HQ/Comics;<br>
+Games;<br>
+Séries e Filmes;<br>
+<br>
+As inscrições se iniciarão no dia 13/01 e se encerrarão no dia 8/03. Os participantes deverão comparecer, sem atrasos, 30 minutos antes do horário previsto para o desfile. Em caso de desistência, informar 48 horas antes do dia do evento.<br>
+<br>
+<b>DESFILE</b><br>
+<br>
+O candidato terá 60 segundos para fazer o seu desfile. O mesmo subirá ao palco após ter seu nome declarado, ir até ao local indicado, fazer um pose para o júri, de frente, costas e lado, agradecer ao público e se retirar;<br>
+Armas de metal, objetos cortantes estarão proibidos;<br>
+Pular do palco e arremessar objetos ou materiais que possam representar perigo às pessoas acarretarão a desclassificação do candidato, bem como apresentação de materiais promocionais não autorizados pela organização e possíveis ofensas e/ou discriminações de qualquer espécie.<br>
+<br>
+<strong> JÚRI / JULGAMENTO</strong><br>
+<br>
+Os participantes serão julgados com notas de 5 (cinco) a 10 (dez), com intervalos de 0,1 (um décimo). Nota zero significa desclassificação. <br>
+O júri será composto por pessoas escolhidas pela organização, cujas decisões serão soberanas, e serão divulgadas logo após a confirmação dos mesmos.<br>
+<br>
+<strong> MÉTODOS DE AVALIAÇÃO</strong><br>
+<br>
+<strong> VESTIMENTA:</strong> Refere-se à qualidade e nível de detalhes dos trajes apresentados pelo cosplayer, bem como a maquiagem, estilização e acessórios/armas;<br>
+<strong> PERSONALIDADE:</strong> Refere-se quão fiel a apresentação feita pelo cosplayer está similar ao personagem; <br>
+Em ambos os casos o biótipo do candidato não será considerado.<br>
+<br>
+<strong> PREMIAÇÕES</strong><br>
+<b>Desfile Principal:</b> R$ 250,00 para o primeiro colocado, R$ 120,00 para o segundo colocado e R$ 60,00 para o terceiro colocado;<br>
+<strong> Desfile Kids</strong>: Brindes para os três primeiros colocados;<br>
+Desfile Livre: Brindes para os três primeiros colocados;<br>
+								<strong> Desfile Cospobre</strong>: Brindes para os três primeiros colocados;<br>
+								<strong> Desfile Cosmaker</strong>: Brindes para os três primeiros colocados;<br>
+<br>
+<b>DISPOSIÇÕES FINAIS</b><br>
+<br>
+Os participantes do desfile concordam em liberar o uso da sua imagem para fins de divulgação. <br>
+							 Com a vigência da LGPD , fazer uma inscrição onde conste que os dados utilizados serão de uso exclusivo do evento, sendo descartados após a finalização e que todo e qualquer cosplayer autorize o uso da imagem pelo evento e que está ciente das regras.</div>
+
+                            <br><br><br>
+							
+							<div class="col-lg-12 col-12 mb-5">
+                            <h2>Regras - KPOP</h2>
+                        </div>
+							<strong> 1. INTRODUÇÃO:</strong><br>
+							<br>
+O Concurso Kpop Dance do Ultimate Geek Con é uma competição de cover de dança pop
+coreana composto por uma etapa no dia do evento. São bem vindos todos os tipos de
+dançarinos, desde amadores a profissionais, contando com uma equipe de jurados
+ex-competidores do evento e ótimas premiações para os três primeiros lugares.<br>
+<br>
+<strong> 2. INSCRIÇÕES:</strong><br>
+<br>
+Todas as inscrições serão realizadas de maneira online, por preenchimento de formulário,
+devendo conter as informações de quem irá dançar, a categoria entre solo, dupla e grupo,
+junto às informações de música e grupo escolhidos de Kpop. As inscrições devem ser
+confirmadas em até 30 minutos antes do início das apresentações na bancada do DJ, onde
+deverá ser entregue o pendrive com o nome do grupo e a música. A não confirmação no
+dia, provoca a desclassificação do candidato ou grupo.<br>
+- Inscrições no dia do evento: no dia do evento haverá uma lista de espera para grupos se
+inscreverem no dia, caso algum outro seja desclassificado ou não compareça, as vagas
+serão preenchidas de acordo com essa lista. - - <a href="ultimate-aut-menor.pdf"><b>Baixar autorização p/ menores de idade</b></a><br>
+<br>
+<strong> 2. REGRAS:</strong><br>
+a) A apresentação deve ser feita apenas com músicas escolhidas do gênero kpop, sendo de
+uma banda original coreana, independente do idioma apresentado pelo grupo.<br>
+b) A coreografia deve ser 80% original do grupo coreano, podem ser 20% adaptados
+para uma melhor performance ou para introduções.<br>
+c) O áudio de apresentação não poderá exceder mais do que 5 (cinco) minutos de
+apresentação, contando desde a introdução a música selecionada, critério que seja levado
+a desclassificação por não cumprimento.<br>
+d) Deverá ser enviado, no momento da inscrição ou em até uma semana antes do evento, 3
+(três) fotos de referência de figurino usado pelo grupo original e que será usado pelo grupo
+participante no dia da competição, critério que será avaliado durante o concurso. A não
+entrega do figurino acarretará em perda de pontos contabilizados pelos jurados.<br>
+e) A música de escolha poderá ser alterada em até 1 (uma) semana antes do evento,
+contanto que seja enviado o pedido de troca aos organizadores, contendo nome do grupo,
+nome da música e grupo que canta, além de novas referências de figurino. A troca
+injustificada no dia acarretará em desclassificação do grupo ou candidato.<br>
+f) Não serão permitidas mixagens de músicas ou randoms dance para competir, apenas
+introduções junto a músicas originais, exceção de alguma apresentação do grupo original
+com aquela mixagem.<br>
+g) Cada integrante do grupo ou dupla poderá se apresentar apenas uma vez por categoria,
+não podendo assim dançar em outros grupos.<br>
+h) Grupos que dançarem a mesma categoria com integrantes diferentes em cada, deverão
+ter um nome alternativo para o grupo, não podendo assim usar o mesmo nome em duas
+apresentações diferentes.<br>
+i) Integrantes menores de idade precisam apresentar um formulário de permissão
+assinado pelos pais ou responsáveis legais para a participação da competição<br>
+<br>
+<strong> 3. CRITÉRIOS DE AVALIAÇÃO:</strong><br>
+a) Execução dos passos<br>
+b) Sincronia com a música escolhida<br>
+c) Sincronia com o grupo ou dupla<br>
+d) Presença de palco e expressões artísticas<br>
+e) Lip-sync (dublar a música quando estiver na presença de palco)<br>
+f) Figurino (baseado no entregue no ato das inscrições)<br>
+<br>
+<strong>4. PROIBIÇÕES:</strong><br>
+a) Fica proibido o uso de qualquer cenário ou equipamento que possa colocar em risco os
+integrantes do grupo, o local ou público ali presente<br>
+b) Participação de jurados ou membros da equipe organizadora do evento em qualquer
+competição<br>
+c) Uso de qualquer tipo de ofensa, constrangimento ou apelo sexual exagerado vindos de
+qualquer integrantes do grupo que irá se apresentar<br>
+d) Atirar qualquer objeto ou vestimenta para fora da área de apresentação, assim como
+pular do mesmo, exceto se o objeto caia sem intenção.<br>
+e) Porte ou uso de fogo, explosivos, fogos de artifício, armas de fogo (mesmo que
+descarregadas), armas brancas, líquidos ou materiais viscosos e qualquer objeto que possa
+apresentar perigo às demais pessoas.<br>
+f) Uso de qualquer banner ou faixa divulgando algum site ou empresa, sem a devida
+autorização da organização do evento.<br>
+<br>
+<strong> 5. PERMISSÕES E DISPOSIÇÕES GERAIS:</strong><br>
+Os participantes estarão de acordo com a utilização da vídeo-imagem por prazo
+indeterminado para fins promocionais, para o Ultimate Geek Con e seus mais parceiros.
+O evento não é obrigado a oferecer nenhum local reservado à caracterização dos
+participantes, tendo como ponto disponível para essa atividade o banheiro social do evento.
+Os membros e participantes do Concurso Kpop deverão pagar normalmente a entrada do
+evento para participar da competição.<br>
+<br>
+<strong> 8. VAGAS</strong><br>
+O concurso será dividido em 3 subcategorias para as apresentações, sendo elas:<br>
+a) SOLO, contabilizando um total de 12 (doze) vagas inscritas pelo site ou preenchidas no
+dia do evento caso não tenham se esgotado ainda;<br>
+b) DUPLA, contabilizando um total de 12 (doze) vagas inscritas pelo site ou preenchidas no
+dia do evento caso não tenham se esgotado ainda;<br>
+c) GRUPO, contabilizando um total de 10 (dez) vagas inscritas pelo site ou preenchidas no
+dia do evento caso não tenham se esgotado ainda;<br>
+<br>
+<strong> 7. PREMIAÇÃO:</strong><br>
+<b>Individual</b><br>
+1º R$ 100,00<br>
+2º e 3º Kit de brindes<br><br>
+<b>Dupla</b><br> 
+1º R$ 100,00<br>
+2º e 3º Kit de brindes<br><br>
+<b>Grupo</b><br>
+R$ 250,00<br>
+2º e 3º Kit de brindes<br><br></div>
+
+                        <div class="col-lg-4 col-12 mx-auto">
+							
+							 <h5 class="mt-5 mb-3">Patrocinio Prata</h5>
+							
+							
+							<div class="row"> 
+							
+							<div class="col-lg-6 col-md-6 col-12 mb-4 mb-lg-0">
+                            <div class="featured-block d-flex justify-content-center align-items-center">
+                                <a href="#" class="d-block">
+                                    <img src="images/mad.png" class="featured-block-image img-fluid" alt="">
+
+                                    <p class="featured-block-text">MAD Print</p>
+                                </a>
+                            </div>
+                        </div>
+							
+							<div class="col-lg-6 col-md-6 col-12 mb-4 mb-lg-0">
+                            <div class="featured-block d-flex justify-content-center align-items-center">
+                                <a href="#" class="d-block">
+                                    <img src="images/madek.png" class="featured-block-image img-fluid" alt="">
+
+                                    <p class="featured-block-text">Made in Korea</p>
+                                </a>
+                            </div>
+                        </div>
+								
+								
+								
+								
+							
+							</div>
+							
+														 <h5 class="mt-5 mb-3">Patrocinio Bronze</h5>
+
+							
+							<div class="row"> 
+							
+							<div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
+                            <div class="featured-block d-flex justify-content-center align-items-center">
+                                <a href="#" class="d-block">
+                                    <img src="images/acadmus.png" class="featured-block-image img-fluid" alt="">
+
+                                    <p class="featured-block-text">Acadmus</p>
+                                </a>
+                            </div>
+                        </div>
+							
+							<div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
+                            <div class="featured-block d-flex justify-content-center align-items-center">
+                                <a href="#" class="d-block">
+                                    <img src="images/amalf.png" class="featured-block-image img-fluid" alt="">
+
+                                    <p class="featured-block-text">Amalfi</p>
+                                </a>
+                            </div>
+                        </div>
+							
+								<div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
+                            <div class="featured-block d-flex justify-content-center align-items-center">
+                                <a href="#" class="d-block">
+                                    <img src="images/pop.png" class="featured-block-image img-fluid" alt="">
+
+                                    <p class="featured-block-text">POP</p>
+                                </a>
+                            </div>
+                        </div>
+								
+								
+								<div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
+                            <div class="featured-block d-flex justify-content-center align-items-center">
+                                <a href="#" class="d-block">
+                                    <img src="images/lafontanna.png" class="featured-block-image img-fluid" alt="">
+
+                                    <p class="featured-block-text">LaFontana</p>
+                                </a>
+                            </div>
+                        </div>
+								
+								
+								 <h5 class="mt-5 mb-3">Apoio Social</h5>
+								
+								
+								<div class="col-lg-12 col-md-6 col-12 mb-4 mb-lg-0">
+                            <div class="featured-block d-flex justify-content-center align-items-center">
+                                <a href="#" class="d-block">
+                                    <img src="images/morada.png" class="featured-block-image img-fluid" alt="">
+
+                                    <p class="featured-block-text">Morada de Luz</p>
+                                </a>
+                            </div>
+                        </div>
+								
+								
+								
+								
+							</div>
+							
+							
+<h5 class="mt-5 mb-3">Muitas Atrações</h5>
+<ul>
+  <li>
+  Desfile Cosplay   
+    
+  </li>
+	<li>
+  Just Dance
+    
+  </li>
+	<li>
+Animeq    
+  </li>
+	<li>
+  KPOP  
+    
+  </li>
+	<li>estúdio fotográfico</li> <li>plataforma 360</li> <li>kizuna brothers</li> <li>dubladores</li> <li>lojas temáticas</li> <li>arena game</li> <li>beco dos artistas</li><li>área de tabuleiros</li> <li>área de card games</li><li> super plataforma de dança do kpop</li> <li>camarim de cosplay</li> <li>camarim de kpop</li> <li>área de maquiagem</li> <li>vestiário exclusivo para o futebol</li> <li>super praça de alimentação</li> <li>estúdio de tatuagem</li> <li> swordplay</li>
+	
+	
+	
+	
+</ul>
+<h5 class="mt-5 mb-3">Concurso Cosplay - Info</h5>
+
+                            <div class="news-block news-block-two-col d-flex mt-4"><p>
+                                
+<b>Desfile Cosplay prêmio em dinheiro</b><br>
+Os 50 primeiros cosplays cadastrados terão entrada gratuira<br><br>
+
+<b>Desfile Kids prêmio brindes</b><br>
+								25 Vagas
+<br><br>
+
+<b>Desfile Cospobre prêmio brindes</b><br>
+								25 Vagas
+<br><br>
+
+<b>Desfile Livre individual ou em grupo. Não é torneio </b><br>
+								50 Vagas
+<br><br>
+
+<b>Desfile Cosmaker pessoas que inventam seu cosplay prêmio em brindes</b><br>
+								25 Vagas
+<br><br>
+
+Todos em horários diferentes no palco principal.<b>Cosplays podem participar de mais de um desfile.</b> </p>
+                                
+                            </div>
+
+
+                            
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+            
+<section class="news-section section-padding" id="cosfut">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-12 col-12 mb-5">
+                            <h2>Copa Fute Cosplay
+</h2>
+                        </div>
+						
+						
+						
+						<p>O campeonato de futebol do Ultimate Geek Con terá quatro times. São eles:<br>
+<b>Tsubasa FC</b><br>
+<b>Time Chapéu de Palha</b><br>
+<b>Super Sayajins</b><br>
+<b>Aldeia da Folha</b><br><br>
+
+Qualquer cosplay será aceito no torneio. O cosplay usado não necessariamente tem que ter referência à equipe escolhida pelo jogador.<br>
+É proibido o uso de chuteira de cravo no torneio.<br>
+Os jogos terão o tempo de 15 por 15 minutos.<br>
+O perdedor da partida disputa o terceiro lugar e os vencedores disputam o primeiro lugar.<br>
+Haverá premiação para os vencedores.<br>
+O Ultimate reservou uma área para os cosplayers tomarem banho e curtirem o restante do evento.<br>
+As inscrições começarão em breve. Se algum dos times escolhidos já tiver esgotado as vagas, o jogador será encaixado no próximo time da lista.<br>
+A escolha de juiz é uma homenagem a um conhecido árbitro icônico do cenário brasileiro. <br>
+Esperamos que vocês gostem da iniciativa.</p>
+						
+					</div>
+	</div>
+			</section>
+            
+        </main>
+
+            
+            <div class="site-footer-bottom">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-6 col-md-7 col-12">
+                            <p class="copyright-text mb-0">Copyright © 2023 -  <b>Ultimate Geek Con.</b>                        	</p>
+                        </div>
+                        
+                        <div class="col-lg-6 col-md-5 col-12 d-flex justify-content-center align-items-center mx-auto">
+                            <ul class="social-icon">
+                               
+                                 <li class="social-icon-item">
+                                <a href="https://www.facebook.com/UltimateGeekCon" target="_blank" class="social-icon-link bi-facebook"></a>
+                            </li>
+
+                            <li class="social-icon-item">
+                                <a href="https://www.instagram.com/ultimategeekcon/" target="_blank" class="social-icon-link bi-instagram"></a>
+                            </li>
+                                
+                            </ul>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+
+        <!-- JAVASCRIPT FILES -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.sticky.js"></script>
+        <script src="js/click-scroll.js"></script>
+        <script src="js/counter.js"></script>
+        <script src="js/custom.js"></script>
+
+    </body>
 </html>
