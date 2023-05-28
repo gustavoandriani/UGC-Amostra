@@ -17,14 +17,22 @@ nav.navbar {
   padding: 20px;
 }
 
+/* INICIO BOX HOME */
 .box-01 {
-  height: 100vh;
+  height: 82vh;
+  background-image: url(../images/pocket/fundo-home-pocket.png);
   background-color: #5c3797;
+  background-repeat: no-repeat;
+  background-size: cover;
   color: white;
 }
 
 .box-conteudo {
   padding-top: 3vh;
+}
+
+div.menu-pocket {
+  width: 100%;
 }
 
 ul.lista-menu {
@@ -50,11 +58,64 @@ ul.lista-menu li.verde {
   background-color: #23BE3D;
 }
 
-ul.lista-menu li a {
+ul.lista-menu li, ul.lista-menu li a {
   font-weight: bold;
   color: white;
 }
 
-ul.lista-menu li a:hover {
-  color: rgb(116, 116, 116);
+ul.lista-menu li.roxo a:hover {
+  color: #23BE3D;
 }
+
+ul.lista-menu li.verde a:hover {
+  color: #3d137f;
+}
+/* FIM BOX HOME */
+
+/* INICIO BOX INGRESSOS */
+.box-02 {
+  height: 102vh;
+  background-color: #23BE3D;
+  background-image: url(../images/pocket/fundo-ingressos-pocket.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+div.ingressos-content1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+  a.ingressos-btn {
+    font-weight: bold;
+    font-size: 2rem;
+    background-color: #3d137f;
+    color: white;
+    padding: 3vh;
+    border-radius: 60px;
+  }
+  a.ingressos-btn:hover {
+    color: #23BE3D;
+    background-color: #20064b;
+  }
+
+div.ingressos-content2 {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: rgb(255, 255, 255, 0.5);
+  margin-top: 10vh;
+  font-size: 1.5rem;
+}
+  div.ingressos-content2, div.ingressos-content2 h1 {
+    padding: 1vh;
+    color: black;
+    font-weight: bold;
+  }
+  div.ingressos-content2 ul li {
+    color: black;
+    list-style-type: none;
+    font-size: 1.5rem;
+  }
+/* FIM BOX INGRESSOS */

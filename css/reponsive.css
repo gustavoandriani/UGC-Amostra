@@ -1,0 +1,159 @@
+@media all and (min-width: 768px) and (max-width: 1024px) {
+  a.navbar-brand.nav-aba {
+    padding: 5px;
+    margin: 0;
+  }
+  div.menu-pocket {
+    width: 100%;
+  }
+  ul.lista-menu {
+    padding-top: 20vh;
+  }
+  ul.lista-menu li {
+    font-size: 1.5rem;
+  }
+
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+  a.navbar-brand.nav-aba {
+    padding: 5px;
+    margin: 0;
+  }
+  div.menu-pocket {
+    width: 100%;
+  }
+  ul.lista-menu {
+    padding-top: 20vh;
+    flex-direction: column;
+  }
+  ul.lista-menu li {
+    font-size: 1.5rem;
+  }
+
+  /*BOX INGRESSOS POCKET*/
+  .box-02 {
+    height: 80vh;
+    padding-top: 20vh;
+  }
+  a.ingressos-btn {
+    font-size: 1.5rem;
+  }
+  div.ingressos-content2, div.ingressos-content2 h1 {
+    padding: 5px;
+  }
+  div.ingressos-content2 h1 {
+    font-size: 1.5rem;
+  }
+  div.ingressos-content2 {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 376px) and (max-width: 480px) {
+  a.navbar-brand.nav-aba {
+    padding: 5px;
+    margin: 0;
+  }
+  div.menu-pocket {
+    width: 100%;
+  }
+  ul.lista-menu {
+    padding-top: 8vh;
+    flex-direction: column;
+  }
+  ul.lista-menu li {
+    font-size: 1rem;
+  }
+
+  /*BOX INGRESSOS POCKET*/
+  .box-02 {
+    height: 80vh;
+    padding-top: 25vh;
+  }
+  a.ingressos-btn {
+    font-size: 1rem;
+  }
+  div.ingressos-content2, div.ingressos-content2 h1 {
+    padding: 5px;
+  }
+  div.ingressos-content2 h1 {
+    font-size: 1.5rem;
+  }
+  div.ingressos-content2 {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 375px) {
+  a.navbar-brand.nav-aba {
+    padding: 0;
+    margin: 0;
+  }
+  div.menu-pocket {
+    width: 100%;
+  }
+  ul.lista-menu {
+    padding-top: 2vh;
+    flex-direction: column;
+  }
+  ul.lista-menu li {
+    font-size: 1rem;
+  }
+
+  /*BOX INGRESSOS POCKET*/
+  .box-02 {
+    height: 80vh;
+    padding-top: 25vh;
+  }
+  a.ingressos-btn {
+    font-size: 1rem;
+  }
+  div.ingressos-content2, div.ingressos-content2 h1 {
+    padding: 5px;
+  }
+  div.ingressos-content2 h1 {
+    font-size: 1.5rem;
+  }
+  div.ingressos-content2 {
+    font-size: 1rem;
+  }
+}
+
+@media all and (max-width: 360px) {
+  a.navbar-brand.nav-aba {
+    padding: 0;
+    margin: 0;
+  }
+  /*BOX HOME POCKET*/
+  div.box-conteudo {
+    padding-top: 0vh;
+  }
+  div.menu-pocket {
+    width: 100%;
+  }
+  ul.lista-menu {
+    flex-direction: column;
+  }
+  ul.lista-menu li {
+    font-size: 1rem;
+  }
+
+  /*BOX INGRESSOS POCKET*/
+  .box-02 {
+    height: 80vh;
+    padding-top: 25vh;
+  }
+  a.ingressos-btn {
+    font-size: 1rem;
+  }
+  div.ingressos-content2, div.ingressos-content2 h1 {
+    padding: 5px;
+  }
+  div.ingressos-content2 h1 {
+    font-size: 1.5rem;
+  }
+  div.ingressos-content2 {
+    font-size: 1rem;
+  }
+}
