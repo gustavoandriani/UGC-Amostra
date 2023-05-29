@@ -133,8 +133,14 @@ div.ingressos-content2 {
 
 /* INICIO BOX CONVIDADOS */
 .box-03 {
-  height: 90vh;
+  height: 110vh;
   background-color: #3d137f;
+  text-align: center;
+  padding-top: 5vh;
+}
+
+.box-03 h2 { 
+  color: white;
 }
 
 div.lista-convidados-pocket {
@@ -171,21 +177,49 @@ div.lista-convidados-pocket div.box-convidados-pocket p {
   color: black;
 }
 
-div.lista-convidados-pocket div.box-convidados-pocket.AH p {
+div.lista-convidados-pocket div.box-convidados-pocket.AH p,
+div.lista-convidados-pocket div.box-convidados-pocket.PDT p {
   top: 115px;
   border-radius: 0 0 22px 22px;
 }
 
 div.lista-convidados-pocket div.box-convidados-pocket.AH {
-  background-image: url('../images/pocket/convidados/AH\ \(3\).png');
+  background-image: url('../images/pocket/convidados/AH\ \(1\).png');
 }
 div.lista-convidados-pocket div.box-convidados-pocket.JP {
-  background-image: url('../images/pocket/convidados/JP\ \(3\).png');
+  background-image: url('../images/pocket/convidados/JP\ \(1\).png');
 }
 div.lista-convidados-pocket div.box-convidados-pocket.CH {
-  background-image: url('../images/pocket/convidados/CH\ \(3\).png');
+  background-image: url('../images/pocket/convidados/CH\ \(1\).png');
 }
 div.lista-convidados-pocket div.box-convidados-pocket.LB {
-  background-image: url('../images/pocket/convidados/LB\ \(3\).png');
+  background-image: url('../images/pocket/convidados/LB\ \(1\).png');
+}
+div.lista-convidados-pocket div.box-convidados-pocket.PDT {
+  background-image: url('../images/pocket/convidados/PDT\ \(1\).jpg');
+}
+
+div#painel-convidados-pocket {
+  margin: 0 auto;
+  width: 75%!important;
+  height: 60vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+div#painel-convidados-pocket.AH {
+  background-image: url('../images/pocket/convidados/AH\ \(2\).png');
+}
+div#painel-convidados-pocket.JP {
+  background-image: url('../images/pocket/convidados/JP\ \(2\).png');
+}
+div#painel-convidados-pocket.CH {
+  background-image: url('../images/pocket/convidados/CH\ \(2\).png');
+}
+div#painel-convidados-pocket.LB {
+  background-image: url('../images/pocket/convidados/LB\ \(2\).png');
+}
+div#painel-convidados-pocket.PDT {
+  background-image: url('../images/pocket/convidados/PDT\ \(2\).png');
 }
 /* FIM BOX CONVIDADOS */
