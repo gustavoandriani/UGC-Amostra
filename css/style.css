@@ -1,3 +1,11 @@
+html {
+  scroll-behavior: smooth;
+}
+ 
+:target {
+  scroll-margin-top: 10vh;
+}
+
 a.nav-aba {
   padding: 0 20px;
   border: 2px solid #3d137f;
@@ -19,7 +27,7 @@ nav.navbar {
 
 /* INICIO BOX HOME */
 .box-01 {
-  height: 82vh;
+  height: 95vh;
   background-image: url(../images/pocket/fundo-home-pocket.png);
   background-color: #5c3797;
   background-repeat: no-repeat;
@@ -86,6 +94,7 @@ div.ingressos-content1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
   a.ingressos-btn {
     font-weight: bold;
@@ -115,7 +124,68 @@ div.ingressos-content2 {
   }
   div.ingressos-content2 ul li {
     color: black;
-    list-style-type: none;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+  }
+  div.ingressos-content2 p {
+    color: black;
   }
 /* FIM BOX INGRESSOS */
+
+/* INICIO BOX CONVIDADOS */
+.box-03 {
+  height: 90vh;
+  background-color: #3d137f;
+}
+
+div.lista-convidados-pocket {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6vh;
+}
+
+div.lista-convidados-pocket div.box-convidados-pocket {
+  width: 180px;
+  height: 180px;
+  border: 5px solid #23BE3D;
+  border-radius: 40px;
+  text-align: center;
+  margin: 1vh;
+  background-size: cover;
+  background-position: center;
+}
+
+div.lista-convidados-pocket div.box-convidados-pocket:hover,
+div.lista-convidados-pocket div.box-convidados-pocket p:hover {
+  cursor: pointer;
+  color: white;
+}
+
+div.lista-convidados-pocket div.box-convidados-pocket p {
+  position: relative;
+  top: 130px;
+  background-color: rgba(0, 255, 0, 0.7);
+  background-clip: padding-box;
+  border-radius: 0 0 10px 10px;
+  font-weight: bold;
+  color: black;
+}
+
+div.lista-convidados-pocket div.box-convidados-pocket.AH p {
+  top: 115px;
+  border-radius: 0 0 22px 22px;
+}
+
+div.lista-convidados-pocket div.box-convidados-pocket.AH {
+  background-image: url('../images/pocket/convidados/AH\ \(3\).png');
+}
+div.lista-convidados-pocket div.box-convidados-pocket.JP {
+  background-image: url('../images/pocket/convidados/JP\ \(3\).png');
+}
+div.lista-convidados-pocket div.box-convidados-pocket.CH {
+  background-image: url('../images/pocket/convidados/CH\ \(3\).png');
+}
+div.lista-convidados-pocket div.box-convidados-pocket.LB {
+  background-image: url('../images/pocket/convidados/LB\ \(3\).png');
+}
+/* FIM BOX CONVIDADOS */
