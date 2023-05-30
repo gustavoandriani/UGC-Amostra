@@ -50,7 +50,7 @@
 
   /*BOX CONVIDADOS POCKET*/
   .box-03 {
-    height: 91vh;
+    height: fit-content;
   }
   div.lista-convidados-pocket {
     flex-wrap: wrap;
@@ -92,7 +92,7 @@
 
   /*BOX CONVIDADOS POCKET*/
   .box-03 {
-    height: 142vh;
+    height: fit-content;
   }
 
   div.lista-convidados-pocket {
@@ -136,7 +136,7 @@
 
   /*BOX CONVIDADOS POCKET*/
   .box-03 {
-    height: 150vh;
+    height: fit-content;
   }
 
   div.lista-convidados-pocket {
@@ -183,7 +183,7 @@
 
   /*BOX CONVIDADOS POCKET*/
   .box-03 {
-    height: 150vh;
+    height: fit-content;
   }
 
   div.lista-convidados-pocket {
