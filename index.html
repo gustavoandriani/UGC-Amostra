@@ -12,7 +12,9 @@
         <link href="css/templatemo-kind-heart-charity.css" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet">
         <link href="css/reponsive.css" rel="stylesheet">
-		<!--
+		
+        <script src="js/script.js"></script>
+        <!--
 
 TemplateMo 581 Kind Heart Charity
 
@@ -110,13 +112,13 @@ https://templatemo.com/tm-581-kind-heart-charity
                                 <a href="#convidados-pocket">CONVIDADOS</a>
                             </li>
                             <li class="roxo">
-                                <a href="">ÁREA GAME</a>
+                                <a href="">CADASTROS</a>
                             </li>
                             <li class="verde">
                                 <a href="">SALAS TEMÁTICAS</a>
                             </li>
                             <li class="roxo">
-                                <a href="">CADASTROS</a>
+                                <a href="">ÁREA GAME</a>
                             </li>
                         </ul>
                     </div>
@@ -163,24 +165,27 @@ https://templatemo.com/tm-581-kind-heart-charity
                     <div class="row">
                         <h2>CONVIDADOS</h2>
                         <div class="lista-convidados-pocket col-12">
-                            <div class="box-convidados-pocket AH">
+                            <div id="box-AH" class="box-convidados-pocket AH" onclick="convidadoSelecao(event, id)">
                                 <p>ANINHA HERNANDES</p>
                             </div>
 
-                            <div class="box-convidados-pocket JP">
+                            <div id="box-JP" class="box-convidados-pocket JP" onclick="convidadoSelecao(event, id)">
                                 <p>JEAN PIERRE</p>
                             </div>
-                            <div class="box-convidados-pocket CH">
+                            <div id="box-CH" class="box-convidados-pocket CH" onclick="convidadoSelecao(event, id)">
                                 <p>CHERPINHA</p>
                             </div>
-                            <div class="box-convidados-pocket LB">
+                            <div id="box-LB" class="box-convidados-pocket LB" onclick="convidadoSelecao(event, id)">
                                 <p>LIA DEL BIANCO</p>
                             </div>
-                            <div class="box-convidados-pocket PDT">
+                            <div id="box-PDT" class="box-convidados-pocket PDT" onclick="convidadoSelecao(event, id)">
                                 <p>PRIMOS DO TARCÍSIO</p>
                             </div>
+                            <div id="box-AC" class="box-convidados-pocket AC" onclick="convidadoSelecao(event, id)">
+                                <p>APRESENTAÇÃO COSPLAY</p>
+                            </div>
                         </div>
-                        <div id="painel-convidados-pocket" class="d-none d-md-block PDT">
+                        <div id="painel-convidados-pocket" class="d-none d-md-block">
                         </div>
                     </div>
                 </div>
