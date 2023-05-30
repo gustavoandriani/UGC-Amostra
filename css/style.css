@@ -234,5 +234,43 @@ div#painel-convidados-pocket.AC {
 
 /* INICIO BOX CADASTROS */
 .box-04 {
-  
+  height: 90vh;
+  background-color: #23BE3D;
+  background-image: url('../images/pocket/fundo-convidados-pocket.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 5vh;
+  text-align: center;
+}
+
+.box-04 h2 {
+  color: white;
+}
+
+.box-04 div.row div.col-4 a {
+  position: relative;
+  top: 60vh;
+}
+
+div.btn-esquerda {
+  padding-right: 25vh;
+}
+
+div.btn-direita {
+  padding-left: 25vh;
+}
+
+.box-04 a {
+  color: white;
+  padding: 2vh;
+  display: block;
+  background-color: #3d137f;
+  border-radius: 30px;
+  font-size: 1.5rem;
+}
+
+.box-04 a:hover {
+  background-color: #20064b;
+  color: #23BE3D;
 }
