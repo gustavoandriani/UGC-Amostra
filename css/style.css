@@ -159,12 +159,15 @@ div.lista-convidados-pocket div.box-convidados-pocket {
   margin: 1vh;
   background-size: cover;
   background-position: center;
+  box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
+  transition: 0.2s ease-in-out;
 }
 
 div.lista-convidados-pocket div.box-convidados-pocket:hover,
 div.lista-convidados-pocket div.box-convidados-pocket p:hover {
   cursor: pointer;
   color: white;
+  transform: scale(1.05);
 }
 
 div.lista-convidados-pocket div.box-convidados-pocket p {
@@ -208,8 +211,12 @@ div#painel-convidados-pocket {
   width: 75%!important;
   height: 60vh;
   background-size: contain;
+  background-position: center;
+  background-color: #23BE3D;
   background-repeat: no-repeat;
   transition: 0.5s ease-in-out;
+  border-radius: 30px;
+  box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
 }
 
 div#painel-convidados-pocket.AH {
@@ -236,7 +243,6 @@ div#painel-convidados-pocket.AC {
 .box-04 {
   height: 90vh;
   background-color: #23BE3D;
-  background-image: url('../images/pocket/fundo-convidados-pocket.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -246,11 +252,24 @@ div#painel-convidados-pocket.AC {
 
 .box-04 h2 {
   color: white;
+  font-size: 5rem;
+  user-select: none;
 }
 
-.box-04 div.row div.col-4 a {
+.box-04 p {
+  font-size: 2.5rem;
+  color: white;
+}
+
+.box-04 img {
+  border-radius: 15px;
+  box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
+  transition: 0.3s ease-in-out;
+}
+
+.box-04 div.row div a {
   position: relative;
-  top: 60vh;
+  top: 1vh;
 }
 
 div.btn-esquerda {
@@ -263,14 +282,21 @@ div.btn-direita {
 
 .box-04 a {
   color: white;
-  padding: 2vh;
+  padding: 1vh;
   display: block;
   background-color: #3d137f;
   border-radius: 30px;
   font-size: 1.5rem;
+  margin-top: 2.5vh;
 }
 
 .box-04 a:hover {
   background-color: #20064b;
   color: #23BE3D;
+}
+
+div.cosplay-div:hover img,
+div.kpop-div:hover img,
+div.beco-div:hover img {
+  transform: scale(1.1);
 }
