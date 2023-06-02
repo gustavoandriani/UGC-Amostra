@@ -37,3 +37,39 @@ function convidadoSelecao(event, id) {
     }
   }
 }
+
+function cadastroCosplayInfoProximo() {
+  const infoCosplayDiv1 = document.getElementById('info-cosplay-div-1')
+  const infoCosplayDiv2 = document.getElementById('info-cosplay-div-2')
+  const btnAnterior = document.getElementById('btn-anterior-cosplay')
+
+  if (infoCosplayDiv1.classList == 'row', 'd-flex') {
+    infoCosplayDiv1.classList.add('d-none')
+    infoCosplayDiv1.classList.remove('d-flex')
+    infoCosplayDiv2.classList.add('d-flex')
+    infoCosplayDiv2.classList.remove('d-none')
+    if (infoCosplayDiv1.classList == 'row', 'd-flex') {
+      btnAnterior.classList.add('d-block')
+      btnAnterior.classList.remove('d-none')
+    }
+  }
+}
+function cadastroCosplayInfoAnterior(event, id) {
+  const infoCosplayDiv1 = document.getElementById('info-cosplay-div-1')
+  const infoCosplayDiv2 = document.getElementById('info-cosplay-div-2')
+  const btnAnterior = document.getElementById('btn-anterior-cosplay')
+
+  if (infoCosplayDiv2.classList == 'row', 'd-flex') {
+    infoCosplayDiv1.classList.remove('d-none')
+    infoCosplayDiv1.classList.add('d-flex')
+    infoCosplayDiv2.classList.remove('d-flex')
+    infoCosplayDiv2.classList.add('d-none')
+    if (infoCosplayDiv1.classList == 'row', 'd-flex') {
+      btnAnterior.classList.add('d-none')
+    }
+  }
+  else if (infoCosplayDiv2.classList == 'row', 'd-flex') {
+    btnAnterior.classList.add('d-block')
+    btnAnterior.classList.remove('d-none')
+  }
+}

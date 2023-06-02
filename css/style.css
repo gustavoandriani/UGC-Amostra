@@ -240,6 +240,9 @@ div#painel-convidados-pocket.AC {
 /* FIM BOX CONVIDADOS */
 
 /* INICIO BOX CADASTROS */
+section#cadastros-pocket {
+  height: fit-content;
+}
 .box-04 {
   height: 90vh;
   background-color: #23BE3D;
@@ -299,4 +302,66 @@ div.cosplay-div:hover img,
 div.kpop-div:hover img,
 div.beco-div:hover img {
   transform: scale(1.1);
+}
+
+div#cosplay-infos {
+  margin-top: 18vh;
+  transition: 0.2s ease-in-out;
+}
+
+div#cosplay-infos div.btns-info-cosplay a {
+  margin: 0 auto;
+  border-radius: 30px;
+  background-color: #3d137f;
+  color: white;
+  font-weight: bold;
+}
+div#cosplay-infos div.btns-info-cosplay a:hover {
+  background-color: #20064b;
+  color: #23BE3D;
+  cursor: pointer;
+}
+
+div#info-cosplay-div-1,
+div#info-cosplay-div-2,
+div#info-cosplay-div-3 {
+  height: 90vh;
+  background-image: url('/images/pocket/cadastros/fundo-cadastro-cosplay.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.box-vazia {
+  height: max-content;
+}
+
+.box-texto {
+  align-self: center;
+  height: fit-content;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding-bottom: 2vh;
+  padding-top: 2vh;
+}
+
+.box-texto h3 {
+  color: #3d137f;
+  font-weight: bolder;
+}
+.box-texto p {
+  font-size: large;
+  color: black;
+  text-align: justify;
+}
+
+div#info-cosplay-div-2 div.box-texto {
+  margin: 0 auto;
+}
+
+div.btns-info-cosplay {
+  position: relative;
+  top: -10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
