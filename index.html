@@ -197,24 +197,25 @@ https://templatemo.com/tm-581-kind-heart-charity
                         <h2>CADASTROS</h2>
                         <p>LEIA ATENTAMENTE O REGULAMENTO</p>
                         <div class="col-4 d-none d-md-block cosplay-div">
-                            <img onclick="switchCosplayInfos()" class="img-fluid" src="./images/pocket/cadastros/cosplay.png" alt="COSPLAY">
-                            <a onclick="switchCosplayInfos()" href="#info-cosplay-div-1"><strong>CADASTRO</strong> COSPLAY</a>
+                            <img onclick="switchInfos('cosplay-infos')" class="img-fluid" src="./images/pocket/cadastros/cosplay.png" alt="COSPLAY">
+                            <a onclick="switchInfos('cosplay-infos')" href="#cosplay-infos"><strong>DESFILE</strong> COSPLAY</a>
                             
                         </div>
                         <div class="col-4 d-none d-md-block kpop-div">
-                            <img class="img-fluid" src="./images/pocket/cadastros/k-pop.png" alt="K-POP">
-                            <a href=""><strong>CADASTRO</strong> K-POP</a>
+                            <img onclick="switchInfos('kpop-infos')" class="img-fluid" src="./images/pocket/cadastros/k-pop.png" alt="K-POP">
+                            <a onclick="switchInfos('kpop-infos')" href="#kpop-infos"><strong>K-POP</strong></a>
                         </div>
                         <div class="col-4 d-none d-md-block beco-div">
-                            <img class="img-fluid" src="./images/pocket/cadastros/beco dos artistas.png" alt="BECO DOS ARTISTAS">
-                            <a href=""><strong>CADASTRO</strong> BECO DOS ARTISTAS</a>
+                            <img onclick="switchInfos('beco-infos')" class="img-fluid" src="./images/pocket/cadastros/beco dos artistas.png" alt="BECO DOS ARTISTAS">
+                            <a onclick="switchInfos('beco-infos')" href="#beco-infos"><strong>BECO</strong> DOS ARTISTAS</a>
                         </div>
-                        <a class="d-md-none" href=""><strong>CADASTRO</strong> COSPLAY</a>
-                        <a class="d-md-none" href=""><strong>CADASTRO</strong> K-POP</a>
-                        <a class="d-md-none" href=""><strong>CADASTRO</strong> BECO DOS ARTISTAS</a>
+                        <a id="cosplay-btn-mob" onclick="switchInfos('cosplay-infos')" class="d-md-none" href="#"><strong>DESFILE</strong> COSPLAY</a>
+                        <a class="d-md-none" href=""><strong>K-POP</strong></a>
+                        <a class="d-md-none" href=""><strong>BECO</strong> DOS ARTISTAS</a>
                     </div>
                 </div>
-                <div id="cosplay-infos" class="container d-none">
+
+                <div id="cosplay-infos" class="container">
                     <div id="info-cosplay-div-1" class="row">
                         <div class="col-6 box-vazia">
         
@@ -293,6 +294,50 @@ https://templatemo.com/tm-581-kind-heart-charity
                         <a class="" id="btn-proximo-cosplay" onclick="cadastroCosplayInfoProximo()">PRÓXIMO <i class="fa-solid fa-arrow-right"></i></a>
                     </div>
 
+                </div>
+                
+                <div id="kpop-infos" class="container">
+                    <div id="info-kpop-div-1" class="row">
+                        <div class="col-6 box-vazia">
+        
+                        </div>
+                        <div class="col-5 box-texto">
+                            <h3>APRESENTAÇÃO K-POP</h3>
+                            <p><strong>INTRODUÇÃO</strong>
+                                <br>
+
+                                O Desfile Cosplay é uma das atrações mais esperadas em eventos geek. Esta atração promove um concurso entre pessoas, chamadas de cosplayers, que usarão trajes e acessórios, com o objetivo de interpretar personagens fictícios existentes em animes/mangás, HQs/Comics, Séries, Filmes, Games e tudo que envolve a cultura pop. A intenção é, através desta disputa, estimular o cosplayer a desenvolver novas habilidades e premiá-los, desde que se destaquem na avaliação do júri, indicado pelo evento.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="beco-infos" class="container">
+                    <div id="info-beco-div-1" class="row">
+                        <div class="col-6 box-vazia">
+        
+                        </div>
+                        <div class="col-5 box-texto">
+                            <h3>BECO DOS ARTISTAS</h3>
+                            <p><strong>INTRODUÇÕES</strong>
+                                <br>
+                                Está Interessado em levar sua arte para o evento?
+                                <br><br>
+                                <strong>CRITERIO PARA AVALIAÇÃO:</strong>
+                                <br>
+                                O material de exposição deverá ser de produção original trabalho de escritores, ilustrados e artesões.
+                                <br>
+                                <br>
+                                <strong>Produtos vetados:</strong> canecas, doces, quadros industrializados, prints de arte de terceiros, almofadas miniaturas.
+                                <br>
+                                <br>
+                                <strong>Produtos autorizados:</strong> Hqs, livros, posters, adesivos  bottons e artesanato.
+                                <br>
+                                <br>
+                                Após o cadastro estaremos fazendo a seleção, o preenchimento do formulário não garante a sua participação.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </section>
         </main>

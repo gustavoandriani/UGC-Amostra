@@ -242,6 +242,7 @@ div#painel-convidados-pocket.AC {
 /* INICIO BOX CADASTROS */
 section#cadastros-pocket {
   height: fit-content;
+  transition: 0.5s ease-in-out;
 }
 
 section#cadastros-pocket div.row {
@@ -308,9 +309,17 @@ div.beco-div:hover img {
   transform: scale(1.1);
 }
 
-div#cosplay-infos {
-  margin-top: 18vh;
+div#cosplay-infos,
+div#kpop-infos,
+div#beco-infos {
+  display: none;
+  margin-top: 13vh;
   transition: 0.2s ease-in-out;
+}
+
+div#kpop-infos,
+div#beco-infos {
+  padding-bottom: 3vh;
 }
 
 div#cosplay-infos div.btns-info-cosplay a {
@@ -329,11 +338,20 @@ div#cosplay-infos div.btns-info-cosplay a:hover {
 div#info-cosplay-div-1,
 div#info-cosplay-div-2,
 div#info-cosplay-div-3 {
-  height: 90vh;
   background-image: url('/images/pocket/cadastros/fundo-cadastro-cosplay.png');
+}
+
+div#info-cosplay-div-1,
+div#info-cosplay-div-2,
+div#info-cosplay-div-3,
+div#info-kpop-div-1,
+div#info-beco-div-1 {
+  height: 90vh;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  border-radius: 30px;
+  box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
 }
 
 .box-vazia {
@@ -368,4 +386,11 @@ div.btns-info-cosplay {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+div#info-kpop-div-1 {
+  background-image: url('/images/pocket/cadastros/fundo-cadastro-kpop.png');
+}
+div#info-beco-div-1 {
+  background-image: url('/images/pocket/cadastros/fundo-cadastro-beco.png');
 }
