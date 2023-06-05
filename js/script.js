@@ -91,18 +91,23 @@ function cadastroCosplayInfoAnterior() {
 //MEDIA QUERIES E ALTERAÇÃO DE FUNÇÕES
 const mediaQuery = window.matchMedia("(max-width: 768px)");
 
-//window.addEventListener("DOMContentLoaded", (event) => {
-//    const btnCospMob = document.getElementById('cosplay-btn-mob')
-//    btnCosp.addEventListener('click', function(event){
-//      event.preventDefault();
-//    })
-//  })
+window.addEventListener("DOMContentLoaded", (event) => {
+  const btnCospMob = document.getElementById('cosplay-btn-mob')
+    btnCospMob.addEventListener('click', function(event){
+  })
+  const btnKpopMob = document.getElementById('kpop-btn-mob')
+    btnKpopMob.addEventListener('click', function(event){
+  })
+  const btnBecoMob = document.getElementById('beco-btn-mob')
+    btnBecoMob.addEventListener('click', function(event){
+  })
+})
 
 function abrirPopUp(divId) {
-  var url = "about:blank";
-    var nomeJanela = "TESTE POPUP";
-    var largura = 500;
-    var altura = 300;
+    var url = "about:blank";
+    var nomeJanela = "";
+    var largura = 800;
+    var altura = 600;
     var posicaoEsquerda = (window.screen.width - largura) / 2;
     var posicaoTopo = (window.screen.height - altura) / 2;
 
@@ -111,15 +116,25 @@ function abrirPopUp(divId) {
     if (janelaPopUp === null || typeof(janelaPopUp) === "undefined") {
         alert("O pop-up foi bloqueado pelo navegador. Por favor, habilite pop-ups para este site.");
     } else {
-        // Personalize o conteúdo da janela pop-up aqui
-        janelaPopUp.document.write("<h1>Este é o conteúdo do pop-up</h1>");
+      if (divId == 'cosplay-infos') {
+        nomeJanela = "REGULAMENTO DESFILE COSPLAY"
+        janelaPopUp.document.write("<h1>REGULAMENTO</h1><br><h3>DESFILE COSPLAY</h3><p><strong>INTRODUÇÃO</strong><br>O Desfile Cosplay é uma das atrações mais esperadas em eventos geek. Esta atração promove um concurso entre pessoas, chamadas de cosplayers, que usarão trajes e acessórios, com o objetivo de interpretar personagens fictícios existentes em animes/mangás, HQs/Comics, Séries, Filmes, Games e tudo que envolve a cultura pop. A intenção é, através desta disputa, estimular o cosplayer a desenvolver novas habilidades e premiá-los, desde que se destaquem na avaliação do júri, indicado pelo evento.</p>" + "<p><strong>MÍDIAS DE ORIGEM</strong><br>Anime/Mangá;<br>HQ/Comics;<br>Games;<br>Séries e Filmes;<br>As inscrições se iniciarão no dia 13/01 e se encerrarão no dia 8/03. Os participantes deverão comparecer, sem atrasos, 30 minutos antes do horário previsto para o desfile. Em caso de desistência, informar 48 horas antes do dia do evento.<br><br><strong>DESFILE</strong><br>O candidato terá 60 segundos para fazer o seu desfile. O mesmo subirá ao palco após ter seu nome declarado, ir até ao local indicado, fazer um pose para o júri, de frente, costas e lado, agradecer ao público e se retirar;Armas de metal, objetos cortantes estarão proibidos;Pular do palco e arremessar objetos ou materiais que possam representar perigo às pessoas acarretarão a desclassificação do candidato, bem como apresentação de materiais promocionais não autorizados pela organização e possíveis ofensas e/ou discriminações de qualquer espécie.</p>" + "<p><strong>JÚRI / JULGAMENTO</strong><br>Os participantes serão julgados com notas de 5 (cinco) a 10 (dez), com intervalos de 0,1 (um décimo). Nota zero significa desclassificação. <br>O júri será composto por pessoas escolhidas pela organização, cujas decisões serão soberanas, e serão divulgadas logo após a confirmação dos mesmos.<br><br><strong>MÉTODOS DE AVALIAÇÃO</strong><br>VESTIMENTA: Refere-se à qualidade e nível de detalhes dos trajes apresentados pelo cosplayer, bem como a maquiagem, estilização e acessórios/armas;<br>PERSONALIDADE: Refere-se quão fiel a apresentação feita pelo cosplayer está similar ao personagem;<br>Em ambos os casos o biótipo do candidato não será considerado.<br><br><strong>PREMIAÇÕES</strong><br>Desfile Principal: Troféu para o primeiro colocado, medalha para o segundo e terceiro colocado;<br>Desfile Kids: Brindes para os três primeiros colocados;</p>" + "<p><strong>DISPOSIÇÕES FINAIS</strong><br>Os participantes do desfile concordam em liberar o uso da sua imagem para fins de divulgação.Com a vigência da LGPD, fazer uma inscrição onde conste que os dados utilizados serão de uso exclusivo do evento, sendo descartados após a finalização e que todo e qualquer cosplayer autorize o uso da imagem pelo evento e que está ciente das regras.</p>");
+      }
+      else if (divId == 'kpop-infos') {
+        nomeJanela = "REGULAMENTO K-POP"
+        janelaPopUp.document.write("")
+      }
+      else if (divId == 'beco-infos') {
+        nomeJanela = "REGULAMENTO BECO DOS ARTISTAS"
+        janelaPopUp.document.write("<h3>BECO DOS ARTISTAS</h3><p><strong>INTRODUÇÕES</strong><br>Está Interessado em levar sua arte para o evento?<br><br><strong>CRITERIO PARA AVALIAÇÃO:</strong><br>O material de exposição deverá ser de produção original trabalho de escritores, ilustrados e artesões.<br><br><strong>Produtos vetados:</strong> canecas, doces, quadros industrializados, prints de arte de terceiros, almofadas miniaturas.<br><br><strong>Produtos autorizados:</strong> Hqs, livros, posters, adesivos  bottons e artesanato.<br><br>Após o cadastro estaremos fazendo a seleção, o preenchimento do formulário não garante a sua participação.</p>")
+      }
     }
 }
 
 function switchInfos(divId) {
   var div = document.getElementById(divId);
   if (window.matchMedia("(max-width:800px)").matches) {
-    abrirPopUp()
+    abrirPopUp(divId)
   } else {
     if (div.style.display === 'none') {
       div.style.display = 'block';
