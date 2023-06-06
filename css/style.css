@@ -28,7 +28,7 @@ nav.navbar {
 /* INICIO BOX HOME */
 .box-01 {
   height: 95vh;
-  background-image: url(../images/pocket/fundo-home-pocket.png);
+  background-image: url('../images/pocket/fundo-home-pocket.png');
   background-color: #5c3797;
   background-repeat: no-repeat;
   background-size: cover;
@@ -84,7 +84,7 @@ ul.lista-menu li.verde a:hover {
 .box-02 {
   height: 102vh;
   background-color: #23BE3D;
-  background-image: url(../images/pocket/fundo-ingressos-pocket.png);
+  background-image: url('../images/pocket/fundo-ingressos-pocket.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -394,4 +394,13 @@ div#info-kpop-div-1 {
 }
 div#info-beco-div-1 {
   background-image: url('/images/pocket/cadastros/fundo-cadastro-beco.png');
+}
+
+div.box-regulamento {
+  width: 100%;
+  background-color: red;
+  display: flex;
+  background-image: url('/images/pocket/cadastros/fundo-cadastro-cosplay.png');
+  background-position: center;
+  background-size: cover;
 }
