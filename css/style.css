@@ -317,6 +317,13 @@ div#beco-infos {
   transition: 0.2s ease-in-out;
 }
 
+div#cosplay-infos a,
+div#kpop-infos a,
+div#beco-infos a {
+  text-align: center;
+  font-weight: bold;
+}
+
 div#kpop-infos,
 div#beco-infos {
   padding-bottom: 3vh;
@@ -403,4 +410,46 @@ div.box-regulamento {
   background-image: url('/images/pocket/cadastros/fundo-cadastro-cosplay.png');
   background-position: center;
   background-size: cover;
+}
+
+/* INICIO SEÇÃO SALAS TEMÁTICAS */
+
+section.box-05 {
+  height: 90vh;
+  background-color: #3d137f;
+
+}
+
+div.container.back-salas {
+  background-image: url('../images/pocket/fundo-salas-pocket.png');
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+}
+
+h2.titulo-salas {
+  margin: 0 auto;
+  width: fit-content;
+  text-align: center;
+  padding: 2vh;
+  margin-top: 4vh;
+  color: #3d137f;
+  background-color: rgb(255, 255, 255, 0.5);
+  font-size: 5rem;
+}
+
+section#salas-pocket a {
+  font-weight: bold;
+  background-color: #3d137f;
+  color: white;
+  padding: 3vh;
+  border-radius: 60px;
+  position: relative;
+  top: 60vh;
+  transition: 0.5s ease-in-out;
+}
+
+section#salas-pocket a:hover {
+  color: #23BE3D;
+  background-color: #20064b;
 }

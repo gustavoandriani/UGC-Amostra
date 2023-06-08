@@ -90,6 +90,25 @@
   section#cadastros-pocket h2 {
     font-size: 3rem;
   }
+
+  /* BOX SALAS TEMÁTICAS */
+  .box-05 div.row {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .box-05 a {
+    width: 100%;
+  }
+  h2.titulo-salas {
+    font-size: 2.5rem;
+  }
+  section#salas-pocket a {
+    width: 75%;
+    text-align: center;
+    top: 20vh;
+    margin-bottom: 2vh;
+  }
 }
 
 @media (min-width: 376px) and (max-width: 480px) {
@@ -169,6 +188,25 @@
   section#cadastros-pocket h2 {
     font-size: 3rem;
   }
+
+  /* BOX SALAS TEMÁTICAS */
+  .box-05 div.row {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .box-05 a {
+    width: 100%;
+  }
+  h2.titulo-salas {
+    font-size: 2.5rem;
+  }
+  section#salas-pocket a {
+    width: 75%;
+    text-align: center;
+    top: 20vh;
+    margin-bottom: 2vh;
+  }
 }
 
 @media (min-width: 361px) and (max-width: 375px) {
@@ -247,6 +285,25 @@
 
   section#cadastros-pocket h2 {
     font-size: 3rem;
+  }
+
+  /* BOX SALAS TEMÁTICAS */
+  .box-05 div.row {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .box-05 a {
+    width: 100%;
+  }
+  h2.titulo-salas {
+    font-size: 2.5rem;
+  }
+  section#salas-pocket a {
+    width: 75%;
+    text-align: center;
+    top: 20vh;
+    margin-bottom: 2vh;
   }
 }
 
@@ -329,5 +386,24 @@
 
   section#cadastros-pocket h2 {
     font-size: 3rem;
+  }
+
+  /* BOX SALAS TEMÁTICAS */
+  .box-05 div.row {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .box-05 a {
+    width: 100%;
+  }
+  h2.titulo-salas {
+    font-size: 2.5rem;
+  }
+  section#salas-pocket a {
+    width: 75%;
+    text-align: center;
+    top: 20vh;
+    margin-bottom: 2vh;
   }
 }
