@@ -1,0 +1,38 @@
+@keyframes pisca {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+@keyframes float01 {
+  0% {
+    transform: translatey(0px);
+  }
+  33% {
+    transform: translatey(-20px);
+  }
+  66% {
+    transform: translatey(20px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
+
+@keyframes float02 {
+  0% {
+    transform: translatey(0px);
+  }
+  33% {
+    transform: translatey(20px);
+  }
+  66% {
+    transform: translatey(-20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}

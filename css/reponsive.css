@@ -1,3 +1,14 @@
+@media all and (max-width: 480px) {
+  div.lista-convidados-pocket div.box-convidados-pocket.AH,
+  div.lista-convidados-pocket div.box-convidados-pocket.CH,
+  div.lista-convidados-pocket div.box-convidados-pocket.PDT,
+  div.lista-convidados-pocket div.box-convidados-pocket.JP,
+  div.lista-convidados-pocket div.box-convidados-pocket.LB,
+  div.lista-convidados-pocket div.box-convidados-pocket.AC {
+    animation: none;
+  }
+}
+
 @media all and (min-width: 768px) and (max-width: 1024px) {
   a.navbar-brand.nav-aba {
     padding: 5px;

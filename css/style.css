@@ -6,6 +6,13 @@ html {
   scroll-margin-top: 10vh;
 }
 
+h1.h1-text::after {
+  content: '|';
+  margin-left: 5px;
+  opacity: 1;
+  animation: pisca .7s infinite;
+}
+
 a.nav-aba {
   padding: 0 20px;
   border: 2px solid #3d137f;
@@ -150,6 +157,18 @@ div.lista-convidados-pocket {
   padding: 6vh;
 }
 
+div.lista-convidados-pocket div.box-convidados-pocket.AH,
+div.lista-convidados-pocket div.box-convidados-pocket.CH,
+div.lista-convidados-pocket div.box-convidados-pocket.PDT {
+  animation: float01 6s ease-in-out infinite;
+}
+
+div.lista-convidados-pocket div.box-convidados-pocket.JP,
+div.lista-convidados-pocket div.box-convidados-pocket.LB,
+div.lista-convidados-pocket div.box-convidados-pocket.AC {
+  animation: float02 6s ease-in-out infinite;
+}
+
 div.lista-convidados-pocket div.box-convidados-pocket {
   width: 180px;
   height: 180px;
@@ -241,7 +260,7 @@ div#painel-convidados-pocket.AC {
 
 /* INICIO BOX CADASTROS */
 section#cadastros-pocket {
-  height: fit-content;
+  height: 90vh;
   transition: 0.5s ease-in-out;
 }
 
