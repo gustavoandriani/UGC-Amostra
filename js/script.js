@@ -126,7 +126,7 @@ function abrirPopUp(divId) {
       }
       else if (divId == 'beco-infos') {
         nomeJanela = "REGULAMENTO BECO DOS ARTISTAS"
-        janelaPopUp.document.write("<div style='width: 100%; font-size: 1.2rem; font-family: sans-serif;'><h1 style='color: #3d137f; font-weight: bold;'>REGULAMENTO</h1><h2 style='color: #3d137f; font-weight: bold;'>BECO DOS ARTISTAS</h2><p><strong style='color: #3d137f;'>INTRODUÇÕES</strong><br>Está Interessado em levar sua arte para o evento?<br><br><strong style='color: #3d137f;'>CRITERIO PARA AVALIAÇÃO:</strong><br>O material de exposição deverá ser de produção original trabalho de escritores, ilustrados e artesões.<br><br><strong style='color: #3d137f;'>Produtos vetados:</strong> canecas, doces, quadros industrializados, prints de arte de terceiros, almofadas miniaturas.<br><br><strong style='color: #3d137f;'>Produtos autorizados:</strong> Hqs, livros, posters, adesivos  bottons e artesanato.<br><br>Após o cadastro estaremos fazendo a seleção, o preenchimento do formulário não garante a sua participação.</p></div>")
+        janelaPopUp.document.write("<div style='width: 100%; font-size: 1.2rem; font-family: sans-serif;'><h1 style='color: #3d137f; font-weight: bold;'>REGULAMENTO</h1><h2 style='color: #3d137f; font-weight: bold;'>BECO DOS ARTISTAS</h2><p><strong style='color: #3d137f;'>INTRODUÇÕES</strong><br>Está Interessado em levar sua arte para o evento?<br><br><strong style='color: #3d137f;'>CRITERIO PARA AVALIAÇÃO:</strong><br>O material de exposição deverá ser de produção original trabalho de escritores, ilustrados e artesões.<br><br><strong style='color: #3d137f;'>Produtos vetados:</strong> canecas, doces, quadros industrializados, prints de arte de terceiros, almofadas miniaturas.<br><br><strong style='color: #3d137f;'>Produtos autorizados:</strong> Hqs, livros, posters, adesivos  bottons e artesanato.<br><br>Após o cadastro estaremos fazendo a seleção, o preenchimento do formulário não garante a sua participação.<br><br><a style='font-weight: bold; background-color: #3d137f; color: white; padding: 3vh; border-radius: 60px; transition: 0.5s ease-in-out; text-decoration: none;' href='https://forms.gle/rbac3oeQssXiETmv6'>CADASTRE-SE NO BECO</a></p></div>")
       }
     }
 }
@@ -169,3 +169,53 @@ function switchInfos(divId) {
     }
   }
 };
+
+function switchSalas(divId) {
+  var div = document.getElementById(divId);
+  const divAldeia = document.getElementById('sala-aldeia')
+  const divGenshin = document.getElementById('sala-genshin')
+  const divComunal = document.getElementById('sala-comunal')
+  const divAtelie = document.getElementById('sala-atelie')
+  if (div.style.display === 'none') {
+    div.style.display = 'block';
+    if (div === divAldeia) {
+      if (divGenshin.style.display === 'block') {
+        divGenshin.style.display = 'none'
+      } else if (divComunal.style.display === 'block') {
+        divComunal.style.display = 'none'
+      } else if (divAtelie.style.display === 'block') {
+        divAtelie.style.display = 'none'
+      }
+    }
+    else if (div === divGenshin) {
+      if (divAldeia.style.display === 'block') {
+        divAldeia.style.display = 'none'
+      } else if (divComunal.style.display === 'block') {
+        divComunal.style.display = 'none'
+      } else if (divAtelie.style.display === 'block') {
+        divAtelie.style.display = 'none'
+      }
+    }
+    else if (div === divComunal) {
+      if (divAldeia.style.display === 'block') {
+        divAldeia.style.display = 'none'
+      } else if (divGenshin.style.display === 'block') {
+        divGenshin.style.display = 'none'
+      } else if (divAtelie.style.display === 'block') {
+        divAtelie.style.display = 'none'
+      }
+    }
+    else if (div === divAtelie) {
+      if (divAldeia.style.display === 'block') {
+        divAldeia.style.display = 'none'
+      } else if (divGenshin.style.display === 'block') {
+        divGenshin.style.display = 'none'
+      } else if (divComunal.style.display === 'block') {
+        divComunal.style.display = 'none'
+      }
+    }
+  }
+  else {
+    div.style.display = 'none';
+  }
+}

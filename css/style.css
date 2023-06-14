@@ -407,24 +407,31 @@ div.box-regulamento {
   width: 100%;
   background-color: red;
   display: flex;
-  background-image: url('/images/pocket/cadastros/fundo-cadastro-cosplay.png');
+  background-image: url('../images/pocket/cadastros/fundo-cadastro-cosplay.png');
   background-position: center;
   background-size: cover;
 }
 
 /* INICIO SEÇÃO SALAS TEMÁTICAS */
 
-section.box-05 {
-  height: 90vh;
-  background-color: #3d137f;
-
+section#salas-pocket {
+  height: fit-content;
 }
 
-div.container.back-salas {
+.box-05 {
+  height: 100vh;
+  background-color: #3d137f;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+}
+
+div#painel-salas-pocket {
+  height: 90vh;
   background-image: url('../images/pocket/fundo-salas-pocket.png');
   background-position: center;
   background-size: cover;
-  height: 100%;
 }
 
 h2.titulo-salas {
@@ -452,4 +459,49 @@ section#salas-pocket a {
 section#salas-pocket a:hover {
   color: #23BE3D;
   background-color: #20064b;
+}
+
+div#sala-aldeia,
+div#sala-genshin,
+div#sala-comunal,
+div#sala-atelie {
+  display: none;
+  margin-top: 2vh;
+  padding-bottom: 2vh;
+}
+
+div#sala-aldeia-infos,
+div#sala-genshin-infos,
+div#sala-comunal-infos,
+div#sala-atelie-infos {
+  height: 90vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 30px;
+  box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
+}
+
+div#sala-aldeia-infos {
+  background-image: url('../images/pocket/salas-tematicas/fundo-aldeia-da-folha.png');
+}
+div#sala-genshin-infos {
+  background-image: url('../images/pocket/salas-tematicas/fundo-genshin-impact.png');
+}
+div#sala-comunal-infos {
+  background-image: url('../images/pocket/salas-tematicas/fundo-salao-comunal.png');
+}
+div#sala-atelie-infos {
+  background-image: url('../images/pocket/salas-tematicas/fundo-atelie-do-medo.png');
+}
+
+div.box-texto h2 {
+  color: #3d137f;
+  font-weight: bold;
+}
+
+div.box-texto {
+  margin-left: auto;
+  margin-right: 2vh;
+  font-size: 1.8rem;
 }
