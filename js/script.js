@@ -101,5 +101,5 @@ function typeWriter(elemento) {
   });
 }
 
-const titulo = document.querySelector('h1');
+const titulo = document.querySelector('h1.h1-text');
   typeWriter(titulo);

@@ -227,14 +227,13 @@ div.lista-convidados-pocket div.box-convidados-pocket.AC {
 
 div#painel-convidados-pocket {
   margin: 0 auto;
-  width: 75%!important;
+  width: 80%!important;
   height: 60vh;
-  background-size: contain;
+  background-size: cover;
   background-position: center;
-  background-color: #23BE3D;
+  background-color: transparent;
   background-repeat: no-repeat;
   transition: 0.5s ease-in-out;
-  border-radius: 30px;
   box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
 }
 
