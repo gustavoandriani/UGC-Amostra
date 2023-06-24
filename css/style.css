@@ -437,6 +437,7 @@ section#salas-pocket {
 }
 
 .box-05 {
+  padding: 5vh;
   height: 100vh;
   background-color: #3d137f;
   background-size: cover;
@@ -450,6 +451,8 @@ div#painel-salas-pocket {
   background-image: url('../images/pocket/fundo-salas-pocket.png');
   background-position: center;
   background-size: cover;
+  box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
+  border-radius: 30px;
 }
 
 h2.titulo-salas {
@@ -522,4 +525,102 @@ div.box-texto {
   margin-left: auto;
   margin-right: 2vh;
   font-size: 1.8rem;
+}
+
+/* INICIO SEÇÃO AREA GAME */
+section#area-game-pocket {
+  height: 90vh;
+  background-color: #23BE3D;
+}
+
+section#area-game-pocket div.container {
+  height: 100%;
+  padding: 5vh;
+}
+
+div.box-area-game {
+  box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
+  border-radius: 30px;
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/pocket/area-game/fundo-area-game-pocket.png');
+  background-position: center;
+  background-size: cover;
+  padding: 5vh;
+}
+
+section#area-game-pocket h2.area-game-titulo {
+  margin: 0 auto;
+  width: fit-content;
+  text-align: center;
+  padding: 2vh;
+  color: #3d137f;
+  background-color: rgba(255, 255, 255, 0.5);
+  font-weight: bold;
+  font-size: 4rem;
+}
+
+section#area-game-pocket a {
+  position: relative;
+  top: 54vh;
+  border-radius: 15px;
+  background-color: #188a2b;
+  color: white;
+  font-weight: bold;
+  padding: 2vh;
+}
+
+section#area-game-pocket a:hover {
+  cursor: pointer;
+  background-color: #0e6e1e;
+  color: #9900ff;
+}
+div.box-buttons-area-game {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* INICIO ÁREA PATROCINADORES */
+
+section#patrocinadores-pocket.box-07 {
+  height: 30vh;
+  background-color: #3d137f;
+  padding-top: 2vh;
+}
+
+section#patrocinadores-pocket h2 {
+  width: fit-content;
+  display: block;
+  color: white;
+  margin: 0 auto;
+  margin-bottom: 3vh;
+}
+
+section#patrocinadores-pocket div.container div.box-imagens-patrocinadores {
+  display: flex;
+  justify-content: space-around;
+}
+
+section#patrocinadores-pocket div.container div.box-imagens-patrocinadores img {
+  max-width: 14vh;
+  height: fit-content;
+  margin: auto 0;
+  transition: 0.3s ease-in-out;
+  filter: grayscale(1);
+}
+section#patrocinadores-pocket div.container div.box-imagens-patrocinadores img.img-masmorra, 
+section#patrocinadores-pocket div.container div.box-imagens-patrocinadores img.img-tattoo013 {
+  transition: 0.5s ease-in;
+  filter: invert();
+}
+
+section#patrocinadores-pocket div.container div.box-imagens-patrocinadores img:hover {
+  filter: grayscale(0);
+}
+
+section#patrocinadores-pocket div.container div.box-imagens-patrocinadores img.float01 {
+  animation: float01 8s ease-in;
+}
+section#patrocinadores-pocket div.container div.box-imagens-patrocinadores img.float02 {
+  animation: float02 8s ease-in;
 }

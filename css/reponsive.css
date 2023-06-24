@@ -1,11 +1,9 @@
 @media all and (max-width: 480px) {
-  div.lista-convidados-pocket div.box-convidados-pocket.AH,
-  div.lista-convidados-pocket div.box-convidados-pocket.CH,
-  div.lista-convidados-pocket div.box-convidados-pocket.PDT,
-  div.lista-convidados-pocket div.box-convidados-pocket.JP,
-  div.lista-convidados-pocket div.box-convidados-pocket.LB,
-  div.lista-convidados-pocket div.box-convidados-pocket.AC {
-    animation: none;
+  div.lista-convidados-pocket div.box-convidados-pocket {
+    animation: none!important;
+  }
+  section#patrocinadores-pocket div.container div.box-imagens-patrocinadores img {
+    animation: none!important;
   }
 }
 
@@ -120,6 +118,50 @@
     top: 20vh;
     margin-bottom: 2vh;
   }
+
+  /* BOX ÁREA GAMES */
+  section#area-game-pocket h2.area-game-titulo {
+    margin: 0;
+    font-size: 4rem;
+  }
+
+  section#area-game-pocket a {
+    top: 9vh;
+    margin-bottom: 2vh;
+  }
+  .box-buttons-area-game {
+    flex-direction: column;
+  }
+
+  /* BOX ÁREA GAMES */
+  section#area-game-pocket h2.area-game-titulo {
+    margin: 0;
+    font-size: 2rem;
+  }
+
+  section#area-game-pocket a {
+    top: 7vh;
+    margin-bottom: 2vh;
+  }
+  .box-buttons-area-game {
+    flex-direction: column;
+  }
+
+  /* BOX PATROCINADORES */ 
+  section#patrocinadores-pocket.box-07 {
+    height: fit-content;
+    padding-bottom: 3vh;
+  }
+
+  section#patrocinadores-pocket div.box-imagens-patrocinadores {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  section#patrocinadores-pocket div.box-imagens-patrocinadores img {
+    margin-bottom: 2vh!important;
+    animation: none!important;
+  }
 }
 
 @media (min-width: 376px) and (max-width: 480px) {
@@ -218,6 +260,50 @@
     top: 20vh;
     margin-bottom: 2vh;
   }
+
+  /* BOX ÁREA GAMES */
+  section#area-game-pocket h2.area-game-titulo {
+    margin: 0;
+    font-size: 2rem;
+  }
+
+  section#area-game-pocket a {
+    top: 7vh;
+    margin-bottom: 2vh;
+  }
+  .box-buttons-area-game {
+    flex-direction: column;
+  }
+
+  /* BOX ÁREA GAMES */
+  section#area-game-pocket h2.area-game-titulo {
+    margin: 0;
+    font-size: 2rem;
+  }
+
+  section#area-game-pocket a {
+    top: 7vh;
+    margin-bottom: 2vh;
+  }
+  .box-buttons-area-game {
+    flex-direction: column;
+  }
+
+  /* BOX PATROCINADORES */ 
+  section#patrocinadores-pocket.box-07 {
+    height: fit-content;
+    padding-bottom: 3vh;
+  }
+
+  section#patrocinadores-pocket div.box-imagens-patrocinadores {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  section#patrocinadores-pocket div.box-imagens-patrocinadores img {
+    margin-bottom: 3vh!important;
+  }
 }
 
 @media (min-width: 361px) and (max-width: 375px) {
@@ -315,6 +401,50 @@
     text-align: center;
     top: 20vh;
     margin-bottom: 2vh;
+  }
+
+  /* BOX ÁREA GAMES */
+  section#area-game-pocket h2.area-game-titulo {
+    margin: 0;
+    font-size: 2rem;
+  }
+
+  section#area-game-pocket a {
+    top: 7vh;
+    margin-bottom: 2vh;
+  }
+  .box-buttons-area-game {
+    flex-direction: column;
+  }
+
+  /* BOX ÁREA GAMES */
+  section#area-game-pocket h2.area-game-titulo {
+    margin: 0;
+    font-size: 2rem;
+  }
+
+  section#area-game-pocket a {
+    top: 7vh;
+    margin-bottom: 2vh;
+  }
+  .box-buttons-area-game {
+    flex-direction: column;
+  }
+
+  /* BOX PATROCINADORES */ 
+  section#patrocinadores-pocket.box-07 {
+    height: fit-content;
+    padding-bottom: 3vh;
+  }
+
+  section#patrocinadores-pocket div.box-imagens-patrocinadores {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  section#patrocinadores-pocket div.box-imagens-patrocinadores img {
+    margin-bottom: 3vh!important;
   }
 }
 
@@ -416,5 +546,35 @@
     text-align: center;
     top: 20vh;
     margin-bottom: 2vh;
+  }
+
+  /* BOX ÁREA GAMES */
+  section#area-game-pocket h2.area-game-titulo {
+    margin: 0;
+    font-size: 2rem;
+  }
+
+  section#area-game-pocket a {
+    top: 7vh;
+    margin-bottom: 2vh;
+  }
+  .box-buttons-area-game {
+    flex-direction: column;
+  }
+
+  /* BOX PATROCINADORES */ 
+  section#patrocinadores-pocket.box-07 {
+    height: fit-content;
+    padding-bottom: 3vh;
+  }
+
+  section#patrocinadores-pocket div.box-imagens-patrocinadores {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  section#patrocinadores-pocket div.box-imagens-patrocinadores img {
+    margin-bottom: 3vh!important;
   }
 }
