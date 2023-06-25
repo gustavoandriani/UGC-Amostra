@@ -32,6 +32,38 @@ nav.navbar {
   padding: 20px;
 }
 
+header.header-site {
+  background-color: #3d137f;
+}
+
+header p, a {
+  color: white;
+  
+}
+
+header p {
+  height: fit-content;
+}
+
+header a:hover {
+  color: #9900ff;
+  font-weight: bold;
+}
+
+header.header-site div.container div.row div.d-flex {
+  align-items: center;
+}
+
+header .link-icone-media-social {
+  background-color: transparent;
+  line-height: 30px;
+  margin-top: 1.5vh;
+}
+
+header .icones-media-social {
+  text-align: right;
+}
+
 /* INICIO BOX HOME */
 .box-01 {
   height: 95vh;
@@ -158,7 +190,7 @@ div.lista-convidados-pocket {
 }
 
 div.lista-convidados-pocket div.box-convidados-pocket.AH,
-div.lista-convidados-pocket div.box-convidados-pocket.CH,
+div.lista-convidados-pocket div.box-convidados-pocket.KB,
 div.lista-convidados-pocket div.box-convidados-pocket.PDT {
   animation: float01 6s ease-in-out infinite;
 }
@@ -212,8 +244,8 @@ div.lista-convidados-pocket div.box-convidados-pocket.AH {
 div.lista-convidados-pocket div.box-convidados-pocket.JP {
   background-image: url('../images/pocket/convidados/JP\ \(1\).png');
 }
-div.lista-convidados-pocket div.box-convidados-pocket.CH {
-  background-image: url('../images/pocket/convidados/CH\ \(1\).png');
+div.lista-convidados-pocket div.box-convidados-pocket.KB {
+  background-image: url('../images/pocket/convidados/KB\ \(1\).png');
 }
 div.lista-convidados-pocket div.box-convidados-pocket.LB {
   background-image: url('../images/pocket/convidados/LB\ \(1\).png');
@@ -243,8 +275,8 @@ div#painel-convidados-pocket.AH {
 div#painel-convidados-pocket.JP {
   background-image: url('../images/pocket/convidados/JP\ \(2\).png');
 }
-div#painel-convidados-pocket.CH {
-  background-image: url('../images/pocket/convidados/CH\ \(2\).png');
+div#painel-convidados-pocket.KB {
+  background-image: url('../images/pocket/convidados/KB\ \(2\).png');
 }
 div#painel-convidados-pocket.LB {
   background-image: url('../images/pocket/convidados/LB\ \(2\).png');
@@ -606,16 +638,6 @@ section#patrocinadores-pocket div.container div.box-imagens-patrocinadores img {
   height: fit-content;
   margin: auto 0;
   transition: 0.3s ease-in-out;
-  filter: grayscale(1);
-}
-section#patrocinadores-pocket div.container div.box-imagens-patrocinadores img.img-masmorra, 
-section#patrocinadores-pocket div.container div.box-imagens-patrocinadores img.img-tattoo013 {
-  transition: 0.5s ease-in;
-  filter: invert();
-}
-
-section#patrocinadores-pocket div.container div.box-imagens-patrocinadores img:hover {
-  filter: grayscale(0);
 }
 
 section#patrocinadores-pocket div.container div.box-imagens-patrocinadores img.float01 {
@@ -623,4 +645,47 @@ section#patrocinadores-pocket div.container div.box-imagens-patrocinadores img.f
 }
 section#patrocinadores-pocket div.container div.box-imagens-patrocinadores img.float02 {
   animation: float02 8s ease-in;
+}
+
+/* INICIO RODAPE */
+
+footer {
+  background-color: #23BE3D;
+  padding: 5vh;
+}
+
+footer p {
+  color: white;
+}
+
+footer a {
+  color: #9900ff;
+}
+
+footer a:hover {
+  color: white;
+}
+
+ul li.icone-media-social a.link-icone-media-social:hover {
+  background-color: #9900ff;
+  color: white;
+}
+
+.icone-media-social {
+  list-style: none;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.link-icone-media-social {
+  background: #3d137f;
+  border-radius: var(--border-radius-large);
+  color: var(--white-color);
+  font-size: var(--copyright-font-size);
+  display: block;
+  margin-right: 5px;
+  text-align: center;
+  width: 35px;
+  height: 35px;
+  line-height: 38px;
 }
