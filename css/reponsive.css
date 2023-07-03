@@ -207,6 +207,10 @@
     flex-direction: column;
   }
 
+  div.lista-convidados-pocket div.box-convidados-pocket.KB p {
+    top: 138px;
+  }
+
   /* BOX CADASTROS POCKET */
   .box-04 {
     height: fit-content;
@@ -347,6 +351,9 @@
   div.lista-convidados-pocket {
     flex-wrap: wrap;
     flex-direction: column;
+  }
+  div.lista-convidados-pocket div.box-convidados-pocket.KB p {
+    top: 138px;
   }
 
   /* BOX CADASTROS POCKET */
@@ -492,6 +499,10 @@
   div.lista-convidados-pocket {
     flex-wrap: wrap;
     flex-direction: column;
+  }
+
+  div.lista-convidados-pocket div.box-convidados-pocket.KB p {
+    top: 138px;
   }
 
   /* BOX CADASTROS POCKET */
