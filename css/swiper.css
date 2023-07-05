@@ -40,12 +40,13 @@
 .swiper-slide h2 {
   color: #fff;
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 1.4rem;
   line-height: 1.4;
   margin-bottom: 0.625rem;
   padding: 0 0 0 1.563rem;
   text-transform: uppercase;
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .swiper-slide p {
@@ -59,8 +60,7 @@
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
   overflow: hidden;
-  background-color: black;
-  backdrop-filter: blur(15px);
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .swiper-slide a {
