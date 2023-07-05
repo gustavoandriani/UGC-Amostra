@@ -35,6 +35,16 @@
   border-radius: 30px;
   box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
   margin-bottom: 2rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+section#convidados-pocket div.swiper-slide {
+  width: 28.125rem;
+  height: 24.75rem;
+  box-shadow: none;
+  margin-bottom: 2rem;
 }
 
 .swiper-slide h2 {
@@ -84,25 +94,38 @@
   opacity: 1;
 }
 
-.swiper-slide--one {
+/* CONVIDADOS */
+.swiper-slide-convidados-one {
+  background-image: url('../images/pocket/convidados/AC\ \(2\).png');
+}
+.swiper-slide-convidados-two {
+  background-image: url('../images/pocket/convidados/AH\ \(2\).png');
+}
+.swiper-slide-convidados-three {
+  background-image: url('../images/pocket/convidados/IB\ \(2\).png');
+}
+.swiper-slide-convidados-four {
+  background-image: url('../images/pocket/convidados/JP\ \(2\).png');
+}
+.swiper-slide-convidados-five {
+  background-image: url('../images/pocket/convidados/KB\ \(2\).png');
+}
+.swiper-slide-convidados-six {
+  background-image: url('../images/pocket/convidados/LB\ \(2\).png');
+}
+
+/* SALAS TEMÁTICAS */
+.swiper-slide-salas-one {
   background-image: url('../images/pocket/salas-tematicas/fundo-aldeia-da-folha.png');
-  background-size: cover;
-  background-position: center;
 }
-.swiper-slide--two {
+.swiper-slide-salas-two {
   background-image: url('../images/pocket/salas-tematicas/fundo-atelie-do-medo.png');
-  background-size: cover;
-  background-position: center;
 }
-.swiper-slide--three {
+.swiper-slide-salas-three {
   background-image: url('../images/pocket/salas-tematicas/fundo-genshin-impact.png');
-  background-size: cover;
-  background-position: center;
 }
-.swiper-slide--four {
+.swiper-slide-salas-four {
   background-image: url('../images/pocket/salas-tematicas/fundo-salao-comunal.png');
-  background-size: cover;
-  background-position: center;
 }
 
 .swiper-3d .swiper-slide-shadow-left,
