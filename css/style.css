@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap');
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -234,8 +240,7 @@ div.lista-convidados-pocket div.box-convidados-pocket p {
 
 div.lista-convidados-pocket div.box-convidados-pocket.AH p,
 div.lista-convidados-pocket div.box-convidados-pocket.PDT p,
-div.lista-convidados-pocket div.box-convidados-pocket.AC p,
-div.lista-convidados-pocket div.box-convidados-pocket.KB p {
+div.lista-convidados-pocket div.box-convidados-pocket.AC p {
   top: 115px;
   border-radius: 0 0 22px 22px;
 }
@@ -495,14 +500,13 @@ div#painel-salas-pocket {
   border-radius: 30px;
 }
 
-h2.titulo-salas {
+h1.titulo-salas {
   margin: 0 auto;
   width: fit-content;
   text-align: center;
   padding: 2vh;
   margin-top: 4vh;
-  color: #3d137f;
-  background-color: rgb(255, 255, 255, 0.5);
+  color: white;
   font-size: 5rem;
 }
 
